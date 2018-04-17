@@ -6,10 +6,21 @@
     transition:.3s;
 }
 
+.button{
+    background:white;
+    color:black;
+    border:none;
+    padding:5px 35px;
+    font-weight:bolder;
+    font-style:italic;
+    border-radius:4px;
+    font-size:22px;
+}
+
 //Header
 
 header{
-    background:#d02133;
+    background:#FF1A2C;
     padding:10px;
     a{
         color:white;
@@ -17,4 +28,40 @@ header{
     a:hover{
         color:white;
     }
+}
+
+//SLIDER
+
+.slider{
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+//Content
+
+.content{
+    a{
+        color:#FF1A2C
+    }
+}
+
+//Contact
+
+.contact{
+    background:url(../img/bg-contact.jpg);
+    background-size: cover;
+    color:white;
+    input[type="text"],input[type="email"],textarea{
+        background: none;
+        color:white;
+        padding:9px;
+        border-radius:20px;
+        border:1px solid rgba(255,255,255,0.5)
+    }
+}
+
+//Footer
+
+footer{
+    background:black;
 }

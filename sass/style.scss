@@ -1,3 +1,10 @@
+@import "header.scss";
+@import "slider.scss";
+@import "content.scss";
+@import "news.scss";
+@import "contact.scss";
+@import "footer.scss";
+
 //Classes
 
 .hover:hover{
@@ -17,55 +24,10 @@
     font-size:22px;
 }
 
-//Header
 
-header{
-    background:#bf2232;
-    padding:10px;
-    a{
-        color:white;
-    }
-    a:hover{
-        color:white;
-    }
-    .social a{
-        margin:0 5px;
-        font-size:25px;
-    }
-}
 
-//SLIDER
 
-.slider{
-    max-height: 100vh;
-    overflow: hidden;
-}
 
-//Content
 
-.content{
-    a{
-        color:#FF1A2C
-    }
-}
 
-//Contact
 
-.contact{
-    background:url(../img/bg-contact.jpg);
-    background-size: cover;
-    color:white;
-    input[type="text"],input[type="email"],textarea{
-        background: none;
-        color:white;
-        padding:9px;
-        border-radius:20px;
-        border:1px solid rgba(255,255,255,0.5)
-    }
-}
-
-//Footer
-
-footer{
-    background:black;
-}

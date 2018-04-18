@@ -24,6 +24,8 @@ body
                         i(class="fab fa-twitter-square")
                     a.hover(href="#")
                         i(class="fas fa-search")
+                        
+    //------------SLIDER------------
     
     .slider
         #carouselExampleIndicators.carousel.slide(data-ride='')
@@ -33,6 +35,8 @@ body
             .carousel-item
               img.img-fluid.d-block.w-100(src='img/slide2.jpg', alt='Second slide')
               
+    //------------CONTENT------------
+              
     .content.py-5
         .container
             h2.text-center.pb-5 O que é a Lei Seca
@@ -40,26 +44,45 @@ body
                 .col-md-6
                     img.img-fluid(src="img/logo.png")
                 .col-md-6
-                    p A Lei nº 11.705, de 19 de junho de 2008, mais conhecida como Lei Seca, de autoria do Deputado Federal pelo Rio de Janeiro Hugo Leal, é uma política pública permanente que foi criada para ajudar na fiscalização de motoristas alcoolizados e aumentar a conscientização para os perigos de combinar bebida e direção. A lei vem da união de três órgãos, a Secretaria de Governo, o Detran e a Polícia Militar. A primeira Operação Lei Seca ocorreu em 19 de março de 2009, e, no seu início, 20% dos motoristas registravam a presença de bebida alcoólica no sangue. Em 2016, o número de motoristas pegos com traços de bebida alcoólica no sangue caiu para 7%. Já em seu primeiro mês de funcionamento, a lei mostrou que faz a diferença. Segundo dados do Ministério da Saúde, ocorreu no período uma diminuição de 24% de resgates do SAMU. Em um ano, o número de mortes em acidentes causados por motoristas embriagados caiu em 32% em comparação com o ano anterior.
+                    p O projeto Lei Seca Salva Vidas tem como objetivo aumentar a conscientização sobre a Lei Seca. Boa parte da população ainda vê a lei apenas como uma ação que cria mais blitzes de trânsito, quando é um projeto que salvou milhares de vidas e poupou bilhões de reais para o país nos últimos nove anos. Inclusive, as ações de fiscalização fizeram com que a lei fosse cada vez mais conhecida pela população. A cada ano, mais e mais motoristas compreendem o perigo de dirigir alcoolizados, diminuindo cada vez mais o número de acidentes nas estradas. Entre 2009 e 2016, o número de motoristas flagrados alcoolizados caiu em 43%. 
 
-                    p A lei foi modificada em 2012, para endurecer ainda mais a fiscalização no trânsito. Inicialmente a prova da embriaguez só poderia ser feita através do teste do bafômetro ou exame do sangue do motorista em laboratório. Após a mudança, passaram a valer como provas o depoimento do policial, testemunhos de terceiros, fotos e vídeos, além de um aumento considerável no valor da multa para o condutor que for flagrado sob influência do álcool. Com essas modificações diminuíram ainda mais as ocorrências de motoristas alcoolizados e acidentes causados pela combinação de álcool e direção.
+                    p Antes da Lei Seca, a ingestão permitida de álcool era de até 6 decigramas por litro de sangue, equivalente a dois copos de cerveja. Quando foi sancionada, a Lei permitia 0,1 mg/l de álcool por litro de sangue, e atualmente a tolerância é de 0,05 mg/l. Quanto aos exames de sangue, antigamente eles poderiam acusar até 2 decigramas de álcool, mas agora não é tolerada nenhuma quantidade.
+                    
+                    p A recusa do teste do bafômetro também tem a mesma punição administrativa – multa por infração gravíssima e suspensão da carteira por 12 meses – que dirigir alcoolizado. E os motoristas condenados a cumprir penas alternativas por infrações de trânsito passaram a pagar pelo crime cometido através do trabalho em ações de resgate ou em instituições de tratamento de vítimas de acidentes.
 
 
-                    a.d-block.text-right.font-weight-bold(href="#") continuar lendo >
+
+                    a.text-link.d-block.text-right(href="#") continuar lendo >
     
     .content-img.pb-5
         .container
             img.img-fluid(src="img/content-img.png")
+            
+    //------------NEWS------------
     
     .news.pb-5
-        .container
+        .container.position-relative
             .row
                 .col-md-8
-                    img.img-fluid(src="img/post.jpg" alt="psot image")
+                    img.noticias.img-fluid.d-none.d-md-block(src="img/noticia.jpg" alt="post image")
+                    .post.hover
+                        img(src="img/noticia1.jpg" alt="post image" style="width:100%")
+                        .post-excerpt
+                            h2.font-weight-bold lorem ipsum dolor sit
+                            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                 .col-md-4
-                    img.img-fluid(src="img/post.jpg" alt="psot image")
-                    img.img-fluid(src="img/post.jpg" alt="psot image")
+                    .post.hover
+                        img(src="img/noticia2.jpg" alt="post image")
+                        .post-excerpt
+                            h2.font-weight-bold lorem ipsum dolor sit
+                    .post.hover
+                        img(src="img/noticia3.jpg" alt="post image")
+                        .post-excerpt
+                            h2.font-weight-bold lorem ipsum dolor sit
+            a.text-link.d-block.text-center.pt-3.pb-5(href="#") Ver todas
                     
+    //------------CONTACT------------
+    
     .contact.py-5
         .container
             h2.text-uppercase.text-center.font-weight-bold Fale conosco
@@ -74,7 +97,9 @@ body
                     .col-md-12.pt-4
                         textarea.w-100(placeholder="Deixe sua mensagem")
                         input.button.float-right.my-4.hover(type="submit" value="Enviar")
-                
+                        
+    //------------FOOTER------------
+                    
     footer.text-center
         p.text-light.py-3 &copy; 2018 Lei Seca Salva Vidas - Todos os direitos reservados.
         

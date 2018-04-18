@@ -1,0 +1,29 @@
+@media screen and (max-width:768px) {
+    .news{
+        .col-md-4 img{
+            width:100%;
+        }
+        img{
+            margin-bottom:10px;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    .news{
+        .col-md-4{
+            overflow: hidden;
+        }
+        .col-md-4,.col-md-8{
+            padding:0;
+        }
+        
+        .col-md-4 img{
+            height:50%;
+        }
+        
+        .col-md-8 img:nth-child(2){
+            padding-right:10px !important;
+        }
+    }
+}

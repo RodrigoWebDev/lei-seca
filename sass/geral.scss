@@ -10,6 +10,14 @@ $color1 : #FF1A2C;
     box-sizing:border-box;
 }
 
+body{
+    position:relative;
+}
+
+
+
+//Classes
+
 .text-link {
     color:$color1;
     font-weight:bolder;
@@ -18,8 +26,6 @@ $color1 : #FF1A2C;
 .text-link:hover {
     color:#e51b29;
 }
-
-//Classes
 
 .hover:hover{
     opacity:0.5;

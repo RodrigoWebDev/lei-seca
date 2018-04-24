@@ -1,14 +1,13 @@
 $(function () {
     //Dropdown menu
-    let index = 0;
-    $("nav .fa-times-circle").click(function () {
-        $(".drop-menu").hide(400);
-
-    });
-    
     $(".nav-button").click(function () {
+        console.log("Hello");
         $(".drop-menu").show(400);
 
     });
-
+    
+    $("nav i").click(function(){
+        console.log("teste");
+        $(".drop-menu").hide(400);
+    });
 });

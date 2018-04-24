@@ -7,11 +7,12 @@
     height: 100%;
     display:flex;
     justify-content: center;
-    svg{
+    i{
         color:white;
         position:absolute;
         top:20px;
         right:20px;
+        font-size:40px;
     }
     ul{
         list-style: none;

@@ -1,3 +1,31 @@
+.drop-menu {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    font-size: 2rem;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    svg{
+        color:white;
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+    ul{
+        list-style: none;
+        li{
+            margin:50px 0;
+        }
+    }
+    //display: none;
+    a{
+        text-decoration: none;
+    }
+}
+
+
 .nav-button {
     border-radius: 50% 50%;
     background: $color1;
@@ -9,8 +37,8 @@
     z-index: 1;
     svg {
         color: white !important;
-        font-size:25px;
-        margin:0 auto;
-        margin-top:7px;
+        font-size: 25px;
+        margin: 0 auto;
+        margin-top: 7px;
     }
 }

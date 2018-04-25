@@ -1,7 +1,15 @@
 @import "geral.scss";
 
 .slider {
-    max-height: 200px;
+    margin-top:65px;
+    max-height:200px !important;
+    h1{
+        z-index:1;
+        bottom:5%;
+        left:120px;
+        font-weight:bolder;
+    }
+    
 }
 
 .blog-content {

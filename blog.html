@@ -4,32 +4,42 @@
     <title>BLOG - Lei seca</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/page-blog.css">
 </head>
 
 <body>
 
-    <!------------------ HEADER -------------------->
-
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-3 col-md-6 d-flex align-items-center"><a class="hover" href="#"><i class="far fa-envelope"></i><span class="d-none d-md-inline">contato@leiseca.com.br</span></a></div>
-                <div class="col-9 col-md-6 text-right social"><a class="hover" href="#"><i class="fab fa-facebook-square"></i></a><a class="hover" href="#"><i class="fab fa-instagram"></i></a><a class="hover" href="#"><i class="fab fa-twitter-square"></i></a><a class="hover" href="#"><i class="fas fa-search"></i></a></div>
+                <div class="col-3 col-md-6 d-flex align-items-center"><a class="hover" href="#"><i class="ion-email"></i><span class="d-none d-md-inline">contato@leiseca.com.br</span></a></div>
+                <div class="col-9 col-md-6 text-right social"><a class="hover" href="#"><i class="ion-social-facebook"></i></a><a class="hover" href="#"><i class="ion-social-instagram"></i></a><a class="hover" href="#"><i class="ion-social-twitter"></i></a><a class="hover" href="#"><i class="ion-search"></i></a></div>
             </div>
         </div>
     </header>
+    
+    <!-------------------- NAV --------------------------->
+    
+    <nav class="drop-menu">
+        <i class="ion-close-round hover"></i>
+        <ul class="text-center">
+            <li><a href="#" class="text-light hover">Lorem</a></li>
+            <li><a href="#myworks" class="text-light hover">Ipsum</a></li>
+            <li><a href="#about" class="text-light hover">Dolor</a></li>
+            <li><a href="#contact" class="text-light hover">Sit</a> </li>
+        </ul>
+    </nav>
 
     <!------------------ SLIDER -------------------->
 
     <div class="slider position-relative">
         <div class="nav-button hover">
-            <i class="fa fa-bars d-block"></i>
+            <i class="ion-navicon-round"></i>
         </div>
-        <div>
+        <div class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active"><img class="img-fluid d-block w-100" src="img/slide1.jpg" alt="First slide"></div>
             </div>
@@ -85,6 +95,8 @@
                         </div>
                     </div>
                 </section>
+                
+                <p class="text-center"><a href="#" class="text-link">Ver mais</a></p>
 
             </div>
 
@@ -95,7 +107,7 @@
                 <aside class="sidebar">
                     <form class="pb-5 position-relative" action="">
                         <input type="search" placeholder="o que você esta procurando?">
-                        <button class="hover position-absolute" type="submit"><i class="fas fa-search"></i></button>
+                        <button class="hover position-absolute" type="submit"><i class="ion-search"></i></button>
                     </form>
                     
                     <h2 class="text-uppercase">Categorias</h2>
@@ -127,13 +139,6 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-
-    </script>
 
 </body>

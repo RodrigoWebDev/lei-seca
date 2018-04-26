@@ -23,6 +23,17 @@ body{
 
 //Classes
 
+.blog-button{
+    display:block;
+    float:right;
+    margin-top:10px;
+    border-radius:8px;
+    background: $color1;
+    color: white;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
 .text-link {
     color:$color1;
     font-weight:bolder;
@@ -48,3 +59,10 @@ body{
     border-radius:4px;
     font-size:22px;
 }
+
+.post-info {
+            font-size: 11px;
+            color: rgba(0, 0, 0, 0.5);
+            display: block;
+            margin-bottom: 12px;
+        }

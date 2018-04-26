@@ -2,11 +2,13 @@
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
     font-size: 2rem;
     height: 100%;
     display:flex;
     justify-content: center;
+    top:0;
+    left:0;
     i{
         color:white;
         position:absolute;
@@ -33,7 +35,7 @@
     position: fixed;
     height: 40px;
     width: 40px;
-    top: 12%;
+    top: 80px;
     left: 5%;
     z-index: 1;
     i {

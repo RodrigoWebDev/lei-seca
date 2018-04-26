@@ -18,8 +18,16 @@
         img {
             margin-bottom: 23px;
             border-radius: 10px;
+            width:100%;
+            height:auto;
         }
         
+        img:hover {
+            opacity:0.5;
+            cursor:pointer;
+            transition:.3s;
+        }
+
         h2 {
             a {
                 color: $color1;
@@ -106,6 +114,15 @@
     }
     div{
         border-radius: 10px;
+    }
+
+    img{
+        border-radius:20px;
+    }
+
+    img,.wp-caption{
+        display:block;
+        margin:0 auto;
     }
 }
 

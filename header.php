@@ -25,10 +25,16 @@
 
     <nav class="drop-menu">
         <i class="ion-close-round hover"></i>
-        <ul class="text-center">
+        <!--<ul class="text-center">
             <li><a href="#" class="text-light hover">Lorem</a></li>
             <li><a href="#myworks" class="text-light hover">Ipsum</a></li>
             <li><a href="#about" class="text-light hover">Dolor</a></li>
             <li><a href="#contact" class="text-light hover">Sit</a> </li>
-        </ul>
+        </ul>-->
+        <?php wp_nav_menu(array(
+            "menu_class" => "container",
+            "container" => "nav",
+            "container_class" => "blog-nav",
+            "theme_location" => "meu-menu",
+        ));?>
     </nav>

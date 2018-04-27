@@ -7,7 +7,7 @@
     </div>
     <div class="carousel slide">
         <div class="carousel-inner">
-            <div class="carousel-item active"><img class="img-fluid d-block w-100" src="<?php echo get_template_directory_uri() . '/' ?>img/slide-1.png" alt="First slide"></div>
+            <div class="carousel-item active"><img class="img-fluid d-block w-100" src="<?php echo get_template_directory_uri() . '/' ?>img/slide-1.jpg" alt="First slide"></div>
         </div>
     </div>
 </div>
@@ -28,7 +28,7 @@
 </div>
 
 <div class="content-img pb-5">
-    <img class="img-fluid w-100" src="<?php echo get_template_directory_uri() . '/img/content-img.png' ?>">
+    <img class="img-fluid w-100" src="<?php echo get_template_directory_uri() . '/img/content-img.jpg' ?>">
 </div>
 
 <!------------------ QUOTS -------------------->

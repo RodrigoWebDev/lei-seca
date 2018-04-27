@@ -13,7 +13,6 @@
 </div>
 
 <!------------------ CONTENT -------------------->
-<?php echo get_template_directory_uri() . "/js/script.js" ?>
 <div class="content py-5">
     <div class="container">
         <h2 class="text-uppercase text-center pb-5">Lei Seca Salva! Seja um fiscal da vida!</h2>

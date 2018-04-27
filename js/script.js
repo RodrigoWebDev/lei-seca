@@ -12,12 +12,12 @@
     
     //Dropdown nav
     $(".menu-item-26").hover(function () {
-        $(".menu-item-26 .sub-menu").toggle(80);
+        $(".menu-item-26 .sub-menu").toggle();
 
     });
     
     $(".menu-item-23").hover(function () {
-        $(".menu-item-23 .sub-menu").toggle(80);
+        $(".menu-item-23 .sub-menu").toggle();
 
     });
 })(jQuery);

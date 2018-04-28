@@ -9,6 +9,13 @@
     }
 }
 
+@media screen and (max-width:767px) {
+    .ms_pagination .ms_bullet {
+        display: block !important;
+    }
+}
+
+
 @media screen and (max-width:768px) {
     .news{
         .col-md-4 img{

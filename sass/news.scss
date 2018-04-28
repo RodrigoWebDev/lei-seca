@@ -7,6 +7,12 @@
     .col-md-8 img:first-child {
         height: 100%;
     }
+    
+    .col-md-4{
+        h2{
+            text-shadow:2px 1px 1px black;
+        }
+    }
 
     .container {
         max-width: 992px;
@@ -16,6 +22,13 @@
 
     .post {
         position: relative;
+        img{
+            width:100%;
+        }
+        .post-excerpt-overlay{
+            background:rgba(0,0,0,0.5);
+        }
+        
         .post-excerpt {
             padding:10px 20px;
             position: absolute;
@@ -24,10 +37,23 @@
                 color: $color1;
                 text-transform: uppercase;
             }
+            a{
+               color:inherit; 
+            }
+            a:hover{
+                text-decoration:none;
+                color:inherit;
+            }
             p {
                 color: white;
             }
         }
+    }
+    
+    .post:hover{
+         opacity:0.7;
+        cursor:pointer;
+        transition:.3s;
     }
 
     .col-md-4{

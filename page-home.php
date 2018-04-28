@@ -1,15 +1,10 @@
 <?php get_header();?>
 <!------------------ SLIDER -------------------->
-
-<div class="slider position-relative">
-    <div class="nav-button hover">
-        <i class="ion-navicon-round"></i>
-    </div>
-    <div class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active"><img class="img-fluid d-block w-100" src="<?php echo get_template_directory_uri() . '/' ?>img/slide-1.jpg" alt="First slide"></div>
-        </div>
-    </div>
+<div class="nav-button hover">
+    <i class="ion-navicon-round"></i>
+</div>
+<div class="slider">
+    <?php motoPressSlider( "home-slider" ) ?>
 </div>
 
 <!------------------ CONTENT -------------------->
@@ -48,32 +43,44 @@
 <div class="news pb-5">
     <div class="container position-relative">
         <div class="row">
+            <?php 
+
+                $destaque = new WP_Query("type=post&posts_per_page=1");
+                
+                if($destaque->have_posts()):
+                    while($destaque->have_posts()):
+                        $destaque->the_post();
+            ?>
             <div class="col-md-8">
                 <img class="noticias img-fluid d-none d-md-block" src="<?php echo get_template_directory_uri() . '/img/noticia.jpg' ?>" alt="post image">
-                <div class="post hover">
-                    <img src="<?php echo get_template_directory_uri() . '/img/noticia1.jpg' ?>" alt="post image" style="width:100%">
-                    <div class="post-excerpt">
-                        <h2 class="font-weight-bold">lorem ipsum dolor sit</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                </div>
+                <?php get_template_part("content","destaque"); ?>
             </div>
+            <?php
+                    endwhile;
+                    wp_reset_postdata();
+                endif;
+                                                   
+            ?>
             <div class="col-md-4">
-                <div class="post hover">
-                    <img src="<?php echo get_template_directory_uri() . '/img/noticia2.jpg' ?>" alt="post image">
-                    <div class="post-excerpt">
-                        <h2 class="font-weight-bold">lorem ipsum dolor sit</h2>
-                    </div>
-                </div>
-                <div class="post hover">
-                    <img src="<?php echo get_template_directory_uri() . '/img/noticia3.jpg' ?>" alt="post image">
-                    <div class="post-excerpt">
-                        <h2 class="font-weight-bold">lorem ipsum dolor sit</h2>
-                    </div>
-                </div>
+                <?php 
+
+                    $destaque2 = new WP_Query("type=post&posts_per_page=2&offset=1");
+
+                    if($destaque2->have_posts()):
+                        while($destaque2->have_posts()):
+                            $destaque2->the_post();
+                            get_template_part("content","destaque2");
+
+                
+                        endwhile;
+                    endif;
+
+                ?>
             </div>
+                            
+                            
         </div>
-        <a class="text-link d-block text-center pt-3 pb-5" href="#">Ver todas</a>
+        <a class="text-link d-block text-center pt-3 pb-5" href="<?php echo get_page_link(5); ?>">Ver todas</a>
     </div>
 </div>
 

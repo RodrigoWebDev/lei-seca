@@ -71,3 +71,16 @@
         }
     }
 }
+
+@media screen and (max-width:991px) {
+    .lei-seca-content{
+        .row{
+            >div:nth-child(2){
+                img{
+                    top:5% !important;
+                }
+            }
+        }
+    
+    }
+}

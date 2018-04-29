@@ -3,6 +3,13 @@
     src : url("../css/fonts/BebasNeue-Regular.ttf");
 }
 
+//MIXINS
+
+@mixin mx-auto{
+    display:block;
+    margin:0 auto;
+}
+
 //VARIAVEIS
 
 $color1 : #FF1A2C;

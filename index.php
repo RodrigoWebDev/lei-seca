@@ -1,6 +1,6 @@
 <?php get_header();?>
     
-    <!------------------ SLIDER -------------------->
+    <!------------------ HERO IMAGE -------------------->
 
     <div class="slider-blog position-relative">
         <div class="nav-button hover">

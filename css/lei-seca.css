@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color1".
-        on line 14 of sass/lei-seca.scss
+        on line 15 of sass/lei-seca.scss
 
-9:     }
-10: 
-11:     .vertical-line{
-12:         width:3px;
-13:         height:40%;
-14:         background:$color1;
-15:         @include mx-auto();
-16:     }
-17: 
-18:     hr{
-19:         width:30%;
+10:     }
+11: 
+12:     .vertical-line{
+13:         width:3px;
+14:         height:40%;
+15:         background:$color1;
+16:         @include mx-auto();
+17:     }
+18: 
+19:     hr{
+20:         width:30%;
 
 Backtrace:
-sass/lei-seca.scss:14
+sass/lei-seca.scss:15
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -80,4 +80,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color1\".\A         on line 14 of sass/lei-seca.scss\A \A 9:     }\A 10: \A 11:     .vertical-line{\A 12:         width:3px;\A 13:         height:40%;\A 14:         background:$color1;\A 15:         @include mx-auto();\A 16:     }\A 17: \A 18:     hr{\A 19:         width:30%;"; }
+  content: "Error: Undefined variable: \"$color1\".\A         on line 15 of sass/lei-seca.scss\A \A 10:     }\A 11: \A 12:     .vertical-line{\A 13:         width:3px;\A 14:         height:40%;\A 15:         background:$color1;\A 16:         @include mx-auto();\A 17:     }\A 18: \A 19:     hr{\A 20:         width:30%;"; }

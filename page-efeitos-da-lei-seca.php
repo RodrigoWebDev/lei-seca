@@ -44,7 +44,7 @@
             </div>
             <div class="col-6 col-md-2">
                 <h2>Veiculos <br> Multados</h2>
-                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/stats1.png'?>" alt="Estatistica">
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/stats5.png'?>" alt="Estatistica">
             </div>
         </div>
     </div>

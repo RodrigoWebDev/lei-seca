@@ -33,7 +33,15 @@
   .news .col-md-4 img {
     height: 50%; }
   .news .col-md-8 img:nth-child(2) {
-    padding-right: 10px !important; } }
+    padding-right: 10px !important; }
+
+  .stats {
+    padding: 150px 0; }
+
+  .e-mais > .row > .col-md-4 .container > .row {
+    padding: 120px 0; }
+  .e-mais h2 {
+    font-size: 38px; } }
 @media screen and (max-width: 991px) {
   .lei-seca-content .row > div:nth-child(2) img {
     top: 5% !important; } }

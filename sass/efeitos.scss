@@ -2,11 +2,15 @@
     background: url(../img/efeitos-bg-header.jpg);
     background-size:contain;
     height:70vh;
+    img{
+        max-width:600px;
+    }
 }
 
 .stats{
     background:url(../img/stats-bg.jpg);
     background-size:cover;
+    padding:50px 0;
     img{
         margin:1rem 0;
     }
@@ -14,6 +18,9 @@
         font-size:18px;
         text-align:center;
         font-family: bebas;
+    }
+    .row{
+        justify-content: space-between;
     }
 }
 
@@ -23,25 +30,36 @@
         padding-bottom:20px;
     }
 
-    .row{
-        padding:80px 0;
+    >.row{
+        >.col-md-4{
+            .container{
+                >.row{
+                    padding:60px 0;
+                }
+            }
+            
+        }
+        .container{
+            color:white;
+        }
+        
+        >.col-md-4:nth-child(1){
+            background: url(../img/efeitos-bg-1.jpg);
+            background-size:cover;
+        }
+        >.col-md-4:nth-child(2){
+            background: url(../img/efeitos-bg-2.jpg);
+            background-size:cover;
+        }
+        >.col-md-4:nth-child(3){
+            background: url(../img/efeitos-bg-3.jpg);
+            background-size:cover;
+        }
     }
+        
+  
 
-    .container{
-        color:white;
-    }
-    .container:nth-child(2){
-        background: url(../img/efeitos-bg-1.jpg);
-        background-size:cover;
-    }
-    .container:nth-child(3){
-        background: url(../img/efeitos-bg-2.jpg);
-        background-size:cover;
-    }
-    .container:nth-child(4){
-        background: url(../img/efeitos-bg-3.jpg);
-        background-size:cover;
-    }
+    
     
 }
 

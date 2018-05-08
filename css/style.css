@@ -463,6 +463,17 @@ header {
   background: #f2f2f2; }
   .mais-que-transito .depois-da-lei-seca h2 {
     color: #FF1A2C; }
+.mais-que-transito .blog-button {
+  width: 200px;
+  text-align: center;
+  font-family: bebas;
+  font-weight: bolder;
+  font-size: 25px;
+  padding: 2px;
+  border-radius: 4px; }
+.mais-que-transito .blog-button:hover {
+  text-decoration: none;
+  color: white; }
 
 footer {
   background: black; }
@@ -512,7 +523,10 @@ footer {
   .e-mais > .row > .col-md-4 .container > .row {
     padding: 120px 0; }
   .e-mais h2 {
-    font-size: 38px; } }
+    font-size: 38px; }
+
+  .mais-que-transito .col-md-6 .container {
+    padding: 100px; } }
 @media screen and (max-width: 991px) {
   .lei-seca-content .row > div:nth-child(2) img {
     top: 5% !important; } }

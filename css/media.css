@@ -41,7 +41,10 @@
   .e-mais > .row > .col-md-4 .container > .row {
     padding: 120px 0; }
   .e-mais h2 {
-    font-size: 38px; } }
+    font-size: 38px; }
+
+  .mais-que-transito .col-md-6 .container {
+    padding: 100px; } }
 @media screen and (max-width: 991px) {
   .lei-seca-content .row > div:nth-child(2) img {
     top: 5% !important; } }

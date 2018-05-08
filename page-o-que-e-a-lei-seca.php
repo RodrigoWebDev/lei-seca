@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-md-5 d-md-flex justify-content-md-end align-items-md-center">
-                <h1 class="text-uppercase text-center text-md-right">O que é a<br class="d-none d-md-block"> Lei Seca?</h1>
+                <h1 class="bebas-title text-md-right">O que é a<br class="d-none d-md-block"> Lei Seca?</h1>
             </div>
             <hr class="d-md-none">
             <div class="col-md-2 d-flex align-items-center">

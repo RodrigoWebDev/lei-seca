@@ -1,1 +1,18 @@
-.contact{background:url(../img/bg-contact.jpg);background-size:cover;color:white}.contact .container{max-width:700px}.contact input[type="text"],.contact input[type="email"],.contact textarea{background:rgba(255,255,255,0.1);color:white;padding:9px 15px;border-radius:20px;border:1px solid rgba(255,255,255,0.5)}.contact input::placeholder,.contact textarea::placeholder{font-style:italic}.contact textarea{height:120px}.contact h2{font-family:bebas;font-size:45px;letter-spacing:3px}
+.contact {
+  background: url(../img/bg-contact.jpg);
+  background-size: cover;
+  color: white; }
+  .contact .container {
+    max-width: 700px; }
+  .contact input[type="text"], .contact input[type="email"], .contact textarea {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 9px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5); }
+  .contact input::placeholder, .contact textarea::placeholder {
+    font-style: italic; }
+  .contact textarea {
+    height: 120px; }
+
+/*# sourceMappingURL=contact.css.map */

@@ -9,6 +9,14 @@
 body {
   position: relative; }
 
+.bebas-title {
+  font-family: bebas;
+  font-size: 45px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase; }
+
 .blog-button {
   display: block;
   float: right;
@@ -227,10 +235,6 @@ header {
     font-style: italic; }
   .contact textarea {
     height: 120px; }
-  .contact h2 {
-    font-family: bebas;
-    font-size: 45px;
-    letter-spacing: 3px; }
 
 .slider-blog {
   margin-top: 65px;
@@ -357,7 +361,6 @@ header {
   min-height: 100vh !important; }
   .hero-lei-seca h1 {
     padding-top: 30px;
-    font-family: bebas;
     font-size: 80px; }
   .hero-lei-seca .vertical-line {
     width: 3px;
@@ -450,6 +453,16 @@ header {
 .e-mais > .row > .col-md-4:nth-child(3) {
   background: url(../img/efeitos-bg-3.jpg);
   background-size: cover; }
+
+.mais-que-transito h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-top: 1.5rem;
+  padding-bottom: 10px; }
+.mais-que-transito .depois-da-lei-seca {
+  background: #f2f2f2; }
+  .mais-que-transito .depois-da-lei-seca h2 {
+    color: #FF1A2C; }
 
 footer {
   background: black; }

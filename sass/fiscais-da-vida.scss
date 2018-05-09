@@ -1,0 +1,38 @@
+.fiscais-da-vida{
+    .hero{
+        background:url(../img/fiscais-da-vida-bg.jpg);
+        background-size:cover;
+        background-position: center center;
+        height:500px !important;
+        h1{
+            padding-top:100px;
+        }
+    }
+    .contact{
+        background:none;
+        color:inherit;
+        form{
+            input,textarea{
+                border-color:$color1 !important;
+                color:rgba(0,0,0,0.6) !important;
+            }
+            .button{
+                background:$color1;
+                color:black !important;
+            }
+        }
+    }
+    
+    h2{
+        font-size:30px;
+        letter-spacing: 1px;
+    }
+
+    .middle{
+        img{
+            display:block;
+            margin:2rem auto;
+            width:40%;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,yBAAQ;EACJ,UAAU,EAAC,IAAI",
+"sources": ["../sass/fiscais-da-vida.scss"],
+"names": [],
+"file": "fiscais-da-vida.css"
+}

@@ -475,6 +475,30 @@ header {
   text-decoration: none;
   color: white; }
 
+.fiscais-da-vida .hero {
+  background: url(../img/fiscais-da-vida-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 500px !important; }
+  .fiscais-da-vida .hero h1 {
+    padding-top: 100px; }
+.fiscais-da-vida .contact {
+  background: none;
+  color: inherit; }
+  .fiscais-da-vida .contact form input, .fiscais-da-vida .contact form textarea {
+    border-color: #FF1A2C !important;
+    color: rgba(0, 0, 0, 0.6) !important; }
+  .fiscais-da-vida .contact form .button {
+    background: #FF1A2C;
+    color: black !important; }
+.fiscais-da-vida h2 {
+  font-size: 30px;
+  letter-spacing: 1px; }
+.fiscais-da-vida .middle img {
+  display: block;
+  margin: 2rem auto;
+  width: 40%; }
+
 footer {
   background: black; }
   footer p {

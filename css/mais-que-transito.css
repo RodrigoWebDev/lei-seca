@@ -1,35 +1,24 @@
 /*
-Error: Undefined variable: "$color1".
-        on line 11 of sass/mais-que-transito.scss
+Error: Undefined variable: "$background-color1".
+        on line 9 of sass/mais-que-transito.scss
 
+4:         letter-spacing:1px;
+5:         padding-top:1.5rem;
 6:         padding-bottom:10px;
 7:     }
 8:     .depois-da-lei-seca{
-9:         background:#f2f2f2;
+9:         background:$background-color1;
 10:         h2{
 11:             color:$color1;
 12:         }
 13:     }
 14: 
-15:     .blog-button{
-16:         width:200px;
 
 Backtrace:
-sass/mais-que-transito.scss:11
+sass/mais-que-transito.scss:9
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
@@ -91,4 +80,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color1\".\A         on line 11 of sass/mais-que-transito.scss\A \A 6:         padding-bottom:10px;\A 7:     }\A 8:     .depois-da-lei-seca{\A 9:         background:#f2f2f2;\A 10:         h2{\A 11:             color:$color1;\A 12:         }\A 13:     }\A 14: \A 15:     .blog-button{\A 16:         width:200px;"; }
+  content: "Error: Undefined variable: \"$background-color1\".\A         on line 9 of sass/mais-que-transito.scss\A \A 4:         letter-spacing:1px;\A 5:         padding-top:1.5rem;\A 6:         padding-bottom:10px;\A 7:     }\A 8:     .depois-da-lei-seca{\A 9:         background:$background-color1;\A 10:         h2{\A 11:             color:$color1;\A 12:         }\A 13:     }\A 14: "; }

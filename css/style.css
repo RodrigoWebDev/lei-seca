@@ -142,6 +142,7 @@ header {
 
 .quots {
   position: relative;
+  background: #f2f2f2;
   padding-top: 100px;
   padding-bottom: 200px; }
   .quots .perfil-comment {
@@ -550,9 +551,26 @@ footer {
     font-size: 38px; }
 
   .mais-que-transito .col-md-6 .container {
-    padding: 100px; } }
+    padding: 100px; }
+
+  .fiscais-da-vida .hero h1 {
+    font-size: 80px; }
+  .fiscais-da-vida h2 {
+    font-size: 50px; } }
 @media screen and (max-width: 991px) {
   .lei-seca-content .row > div:nth-child(2) img {
-    top: 5% !important; } }
+    top: 5% !important; }
+
+  .fiscais-da-vida .hero p {
+    display: none; }
+
+  .fiscais-da-vida .hero h1 {
+    font-size: 60px; } }
+@media screen and (max-width: 1200px) {
+  .fiscais-da-vida .hero p {
+    margin-right: 500px; } }
+@media screen and (min-width: 1200px) {
+  .fiscais-da-vida .hero p {
+    margin-right: 600px; } }
 
 /*# sourceMappingURL=style.css.map */

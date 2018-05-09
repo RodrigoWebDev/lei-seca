@@ -100,6 +100,19 @@
             }
         }
     }
+
+    .fiscais-da-vida{
+        .hero{
+            h1{
+                font-size:80px;
+            }
+        }
+        h2{
+            font-size:50px;
+        }
+    }
+
+    
     
 }
 
@@ -113,5 +126,40 @@
             }
         }
     
+    }
+    .fiscais-da-vida{
+        .hero{
+            p{
+                display:none;
+            }
+        }
+    }
+
+    .fiscais-da-vida{
+        .hero{
+            h1{
+                font-size:60px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .fiscais-da-vida{
+        .hero{
+            p{
+                margin-right:500px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .fiscais-da-vida{
+        .hero{
+            p{
+                margin-right:600px;
+            }
+        }
     }
 }

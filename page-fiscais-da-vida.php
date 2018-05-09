@@ -7,25 +7,37 @@
     
         <div class="hero p-4">
             <div class="container">
-                <h1 class="bebas-title text-left">Fiscais <br>da vida</h1>
+                <h1 class="bebas-title text-left">Fiscais <br class="d-md-none">da vida</h1>
+                <div class=" d-md-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique saepe omnis magnam aperiam, magni excepturi perspiciatis, minima doloribus incidunt quisquam repellendus ea aliquid maxime nobis voluptates praesentium accusamus cumque nemo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique saepe omnis magnam aperiam, magni excepturi perspiciatis, minima doloribus incidunt quisquam repellendus ea aliquid maxime nobis voluptates praesentium accusamus cumque nemo.</p>
+                </div>
             </div>
         </div>
         
         <!------------------ CONTENT -------------------->
         
-        <div class="container py-4">
+        <div class="container py-4 d-md-none">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique saepe omnis magnam aperiam, magni excepturi perspiciatis, minima doloribus incidunt quisquam repellendus ea aliquid maxime nobis voluptates praesentium accusamus cumque nemo.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique saepe omnis magnam aperiam, magni excepturi perspiciatis, minima doloribus incidunt quisquam repellendus ea aliquid maxime nobis voluptates praesentium accusamus cumque nemo.</p>
         </div>
 
         <div class="middle container py-4">
             <h2 class="bebas-title text-left">Por que ser um fiscal:</h2>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/coracao.png'?>" alt="">
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit corrupti deleniti libero rem quam ipsa</p>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/mao.png'?>" alt="">
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit corrupti deleniti libero rem quam ipsa</p>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/gota.png'?>" alt="">
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit corrupti deleniti libero rem quam ipsa</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/coracao.png'?>" alt="">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit corrupti deleniti libero rem quam ipsa</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/mao.png'?>" alt="">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit corrupti deleniti libero rem quam ipsa</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/gota.png'?>" alt="">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius reprehenderit corrupti deleniti libero rem quam ipsa</p>
+                </div>
+            </div>
         </div>
 
         <?php get_template_part("quots");?>

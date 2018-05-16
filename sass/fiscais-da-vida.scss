@@ -1,9 +1,10 @@
 .fiscais-da-vida{
+    padding-top:25px;
     .hero{
         background:url(../img/fiscais-da-vida-bg.jpg);
         background-size:cover;
         background-position: center center;
-        height:500px !important;
+        height:700px !important;
         h1{
             padding-top:100px;
         }
@@ -29,6 +30,7 @@
     }
 
     .middle{
+        padding:90px;
         img{
             display:block;
             margin:2rem auto;

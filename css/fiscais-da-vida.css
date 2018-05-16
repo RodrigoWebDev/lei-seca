@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color1".
-        on line 16 of sass/fiscais-da-vida.scss
+        on line 17 of sass/fiscais-da-vida.scss
 
-11:     .contact{
-12:         background:none;
-13:         color:inherit;
-14:         form{
-15:             input,textarea{
-16:                 border-color:$color1 !important;
-17:                 color:rgba(0,0,0,0.6) !important;
-18:             }
-19:             .button{
-20:                 background:$color1;
-21:                 color:black !important;
+12:     .contact{
+13:         background:none;
+14:         color:inherit;
+15:         form{
+16:             input,textarea{
+17:                 border-color:$color1 !important;
+18:                 color:rgba(0,0,0,0.6) !important;
+19:             }
+20:             .button{
+21:                 background:$color1;
+22:                 color:black !important;
 
 Backtrace:
-sass/fiscais-da-vida.scss:16
+sass/fiscais-da-vida.scss:17
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -106,4 +106,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color1\".\A         on line 16 of sass/fiscais-da-vida.scss\A \A 11:     .contact{\A 12:         background:none;\A 13:         color:inherit;\A 14:         form{\A 15:             input,textarea{\A 16:                 border-color:$color1 !important;\A 17:                 color:rgba(0,0,0,0.6) !important;\A 18:             }\A 19:             .button{\A 20:                 background:$color1;\A 21:                 color:black !important;"; }
+  content: "Error: Undefined variable: \"$color1\".\A         on line 17 of sass/fiscais-da-vida.scss\A \A 12:     .contact{\A 13:         background:none;\A 14:         color:inherit;\A 15:         form{\A 16:             input,textarea{\A 17:                 border-color:$color1 !important;\A 18:                 color:rgba(0,0,0,0.6) !important;\A 19:             }\A 20:             .button{\A 21:                 background:$color1;\A 22:                 color:black !important;"; }

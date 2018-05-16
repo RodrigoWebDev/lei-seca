@@ -5,7 +5,7 @@
             <i class="ion-navicon-round"></i>
         </div>
     
-        <div class="hero p-4">
+        <div class="hero px-4">
             <div class="container">
                 <h1 class="bebas-title text-left">Fiscais <br class="d-md-none">da vida</h1>
                 <div class=" d-md-block">
@@ -22,7 +22,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique saepe omnis magnam aperiam, magni excepturi perspiciatis, minima doloribus incidunt quisquam repellendus ea aliquid maxime nobis voluptates praesentium accusamus cumque nemo.</p>
         </div>
 
-        <div class="middle container py-4">
+        <div class="middle container px-5">
             <h2 class="bebas-title text-left">Por que ser um fiscal:</h2>
             <div class="row">
                 <div class="col-md-4">
@@ -44,10 +44,10 @@
         <!------------------ CONTACT -------------------->
 
 
-        <div class="contact py-5">
+        <div class="contact py-5 mx-auto" style="max-width:768px">
             <div class="container">
                 <h2 class="bebas-title">Seja um fiscal</h2>
-                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum tenetur veritatis perspiciatis.</p>
+                <p class="text-center py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum tenetur veritatis perspiciatis.</p>
                 <form>
                     <div class="row">
                         <div class="col-md-6 pb-4 pb-md-0"><input class="w-100" type="text" name="name" placeholder="Nome"></div>

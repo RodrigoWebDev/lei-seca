@@ -169,7 +169,7 @@ header {
   .quots .quote1, .quots .quote2 {
     width: 40px; }
   .quots .quote1 {
-    top: 250px;
+    top: 200x;
     left: 12%; }
   .quots .quote2 {
     right: 12%;
@@ -547,6 +547,9 @@ footer {
     margin: 0; }
 
 @media screen and (max-width: 576px) {
+  .quots .quote1, .quots .quote2 {
+    display: none; }
+
   .news h2 {
     font-size: 16px; }
   .news p {
@@ -555,6 +558,9 @@ footer {
   .ms_pagination .ms_bullet {
     display: block !important; } }
 @media screen and (max-width: 768px) {
+  .quots .quote2 {
+    top: 400px; }
+
   .news .col-md-4 img {
     width: 100%; }
   .news img {
@@ -634,6 +640,11 @@ footer {
     margin-right: 500px; } }
 @media screen and (min-width: 1200px) {
   .fiscais-da-vida .hero p {
-    margin-right: 600px; } }
+    margin-right: 600px; }
+
+  .quots .quote1 {
+    left: 100px !important; }
+  .quots .quote2 {
+    right: 100px !important; } }
 
 /*# sourceMappingURL=style.css.map */

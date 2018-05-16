@@ -12,6 +12,12 @@
         }
     }
 
+    .hero{
+        padding-top:100px;
+        padding-bottom: 30px;
+        background:url(../img/mais-que-transito-header-bg.png);
+    }
+
     .blog-button{
         width:200px;
         text-align:center;
@@ -20,10 +26,26 @@
         font-size:25px;
         padding:2px;
         border-radius:4px;
+        float:none;
+        @include mx-auto();
     }
 
     .blog-button:hover{
         text-decoration: none;
         color:white;
     }
+
+    .seja-um-fiscal{
+        padding:2rem 0;
+        .row{
+            .col-md-6:first-child{
+               img{
+                   width:70%;
+                   @include mx-auto();
+                   margin-bottom:20px;
+               }
+            }
+        }
+    }
 }
+

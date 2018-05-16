@@ -463,6 +463,10 @@ header {
   background: #f2f2f2; }
   .mais-que-transito .depois-da-lei-seca h2 {
     color: #FF1A2C; }
+.mais-que-transito .hero {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background: url(../img/mais-que-transito-header-bg.png); }
 .mais-que-transito .blog-button {
   width: 200px;
   text-align: center;
@@ -470,10 +474,20 @@ header {
   font-weight: bolder;
   font-size: 25px;
   padding: 2px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  float: none;
+  display: block;
+  margin: 0 auto; }
 .mais-que-transito .blog-button:hover {
   text-decoration: none;
   color: white; }
+.mais-que-transito .seja-um-fiscal {
+  padding: 2rem 0; }
+  .mais-que-transito .seja-um-fiscal .row .col-md-6:first-child img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; }
 
 .fiscais-da-vida .hero {
   background: url(../img/fiscais-da-vida-bg.jpg);
@@ -559,6 +573,14 @@ footer {
   .post-content h1 {
     font-size: 20px; } }
 @media screen and (min-width: 768px) {
+  .mais-que-transito .blog-button {
+    float: right; }
+  .mais-que-transito .seja-um-fiscal .row .col-md-6:nth-child(2) img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+
   .news .col-md-4 {
     overflow: hidden; }
   .news .col-md-4, .news .col-md-8 {

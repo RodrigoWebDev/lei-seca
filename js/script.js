@@ -1,4 +1,6 @@
 (function($){
+
+    console.log("teste");
     $(".sub-menu").hide();
     //Dropdown menu
     $(".nav-button").click(function () {

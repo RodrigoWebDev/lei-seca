@@ -1,18 +1,21 @@
 /*
 Error: Undefined variable: "$background-color1".
-        on line 3 of sass/quots.scss
+        on line 49 of sass/page-home.scss
 
-1: .quots{
-2:     position:relative;
-3:     background:$background-color1;
-4:     padding:{
-5:         top:100px;
-6:         bottom:200px;
-7:     }
-8:     .perfil-comment{
+44: 
+45: //Quots
+46: 
+47: .quots{
+48:     position:relative;
+49:     background:$background-color1;
+50:     padding:{
+51:         top:100px;
+52:         bottom:200px;
+53:     }
+54:     .perfil-comment{
 
 Backtrace:
-sass/quots.scss:3
+sass/page-home.scss:49
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -66,4 +69,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$background-color1\".\A         on line 3 of sass/quots.scss\A \A 1: .quots{\A 2:     position:relative;\A 3:     background:$background-color1;\A 4:     padding:{\A 5:         top:100px;\A 6:         bottom:200px;\A 7:     }\A 8:     .perfil-comment{"; }
+  content: "Error: Undefined variable: \"$background-color1\".\A         on line 49 of sass/page-home.scss\A \A 44: \A 45: //Quots\A 46: \A 47: .quots{\A 48:     position:relative;\A 49:     background:$background-color1;\A 50:     padding:{\A 51:         top:100px;\A 52:         bottom:200px;\A 53:     }\A 54:     .perfil-comment{"; }

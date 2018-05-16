@@ -1,9 +1,6 @@
 <?php get_header();?>
     <div class="mais-que-transito">
         <!------------------ HERO IMAGE -------------------->
-        <div class="nav-button hover">
-                <i class="ion-navicon-round"></i>
-        </div>
     
         <div class="hero text-light px-4">
             <div class="container">

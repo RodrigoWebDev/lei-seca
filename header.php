@@ -39,3 +39,7 @@
             "theme_location" => "meu-menu",
         ));?>
     </nav>
+
+    <div class="nav-button hover">
+        <i class="ion-navicon-round"></i>
+    </div>

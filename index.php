@@ -3,9 +3,6 @@
     <!------------------ HERO IMAGE -------------------->
 
     <div class="slider-blog position-relative">
-        <div class="nav-button hover">
-            <i class="ion-navicon-round"></i>
-        </div>
         <h1 class="text-light position-absolute">Notícias</h1>
         <div class="carousel slide">
             <div class="carousel-inner">

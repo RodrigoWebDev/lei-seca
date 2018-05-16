@@ -1,8 +1,5 @@
 <?php get_header();?>
     <div class="fale-conosco">
-    <div class="nav-button hover">
-        <i class="ion-navicon-round"></i>
-    </div>
     <div class="contact py-5">
         <div class="container">
             <div class="row">

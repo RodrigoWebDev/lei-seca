@@ -1,8 +1,4 @@
 <?php get_header();?>
-
-<div class="nav-button hover">
-    <i class="ion-navicon-round"></i>
-</div>
 <!------------------ HERO IMAGE -------------------->
 
 <div class="efeitos-hero position-relative d-flex align-items-center justify-content-center">

@@ -1,9 +1,6 @@
 <?php get_header();?>
     <div class="fiscais-da-vida">
         <!------------------ HERO IMAGE -------------------->
-        <div class="nav-button hover">
-            <i class="ion-navicon-round"></i>
-        </div>
     
         <div class="hero px-4">
             <div class="container">

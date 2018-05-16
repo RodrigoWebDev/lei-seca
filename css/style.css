@@ -132,20 +132,32 @@ header {
     display: block;
     margin: -9px 11px; }
 
-.motoslider_wrapper h3 {
-  text-align: center; }
-.motoslider_wrapper .ms_wrapper {
-  min-height: 300px; }
-.motoslider_wrapper .ms_layer {
-  width: 100% !important;
-  left: 0 !important;
-  box-sizing: border-box !important; }
-  .motoslider_wrapper .ms_layer h1 {
-    text-align: center !important; }
-
 .content h2 {
   font-size: 26px;
   letter-spacing: 4px; }
+
+.contact {
+  background: url(../img/bg-contact.jpg);
+  background-size: cover;
+  color: white; }
+  .contact input[type="text"], .contact input[type="email"], .contact textarea {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 9px 15px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5); }
+  .contact input::placeholder, .contact textarea::placeholder {
+    font-style: italic; }
+  .contact textarea {
+    height: 120px; }
+
+.slide {
+  max-height: 500px;
+  overflow: hidden; }
+  .slide .carousel-indicators {
+    z-index: 2; }
+    .slide .carousel-indicators li {
+      cursor: pointer; }
 
 .quots {
   position: relative;
@@ -226,21 +238,6 @@ header {
       height: 100%; }
   .news .col-md-8 h2 {
     text-align: center; }
-
-.contact {
-  background: url(../img/bg-contact.jpg);
-  background-size: cover;
-  color: white; }
-  .contact input[type="text"], .contact input[type="email"], .contact textarea {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    padding: 9px 15px;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.5); }
-  .contact input::placeholder, .contact textarea::placeholder {
-    font-style: italic; }
-  .contact textarea {
-    height: 120px; }
 
 .slider-blog {
   margin-top: 65px;

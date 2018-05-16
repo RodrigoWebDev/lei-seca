@@ -2,9 +2,6 @@
     
     <!------------------ HERO IMAGE -------------------->
     <div class="hero-lei-seca pt-5 d-flex position-relative ">
-        <div class="nav-button hover">
-            <i class="ion-navicon-round"></i>
-        </div>
         <div class="row">
             <div class="col-md-5 d-md-flex justify-content-md-end align-items-md-center">
                 <h1 class="bebas-title text-md-right">O que é a<br class="d-none d-md-block"> Lei Seca?</h1>

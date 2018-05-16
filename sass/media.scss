@@ -29,6 +29,24 @@
         .col-md-4 .post:nth-child(2) img{
             margin-top: 19px;
         }
+        
+        .col-md-4{
+            .post:first-child{
+                .post-excerpt{
+                    bottom:40px;
+                }
+            }
+        }
+
+        .col-md-8{
+            .post{
+                margin-right:0;
+                .post-excerpt{
+                    bottom:40px;
+                }
+            }
+            
+        }
     }
     
     .contact{

@@ -60,7 +60,7 @@
                     if($destaque2->have_posts()):
                         while($destaque2->have_posts()):
                             $destaque2->the_post();
-                            get_template_part("content","destaque2");
+                            get_template_part("content","destaque");
 
                 
                         endwhile;

@@ -1,4 +1,5 @@
 .news {
+    padding-top:70px;
     .noticias {
         position: absolute;
         top: 11px;
@@ -8,7 +9,7 @@
         height: 100%;
     }
     
-    .col-md-4{
+    .col-md-4, .col-md-8{
         h2{
             text-shadow:2px 1px 1px black;
         }
@@ -25,11 +26,9 @@
         img{
             width:100%;
         }
-        .post-excerpt-overlay{
-            background:rgba(0,0,0,0.5);
-        }
         
         .post-excerpt {
+            width:100%;
             padding:10px 20px;
             position: absolute;
             bottom: 0;
@@ -57,18 +56,18 @@
     }
 
     .col-md-4{
+        h2{
+            font-size:20px;
+        }
         .post{
             height:50%;
             img{
                 height:100%;
             }
             h2{
-                font-size:20px;
                 text-align: center;
             }
-            .post-excerpt{
-                width:100%;
-            }
+
         }
         
         .post:first-child{
@@ -76,16 +75,19 @@
                 padding-bottom:10px;
             }
         }
+
     }
     
     .col-md-8{
-        padding-right: 10px;
         .post{
             height:100%;
             margin-right:10px;
             img{
                 height:100%;
             }
+        }
+        h2{
+            text-align:center;
         }
     }
 

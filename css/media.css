@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'mx-auto'.
-        on line 67 of sass/media.scss, in `mx-auto'
-        from line 67 of sass/media.scss
+        on line 85 of sass/media.scss, in `mx-auto'
+        from line 85 of sass/media.scss
 
-62:         .seja-um-fiscal{
-63:             .row{
-64:                 .col-md-6:nth-child(2){
-65:                    img{
-66:                        width:50%;
-67:                        @include mx-auto();
-68:                        margin-bottom:20px;
-69:                    }
-70:                 }
-71:             }
-72:         }
+80:         .seja-um-fiscal{
+81:             .row{
+82:                 .col-md-6:nth-child(2){
+83:                    img{
+84:                        width:50%;
+85:                        @include mx-auto();
+86:                        margin-bottom:20px;
+87:                    }
+88:                 }
+89:             }
+90:         }
 
 Backtrace:
-sass/media.scss:67:in `mx-auto'
-sass/media.scss:67
+sass/media.scss:85:in `mx-auto'
+sass/media.scss:85
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
@@ -131,4 +131,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'mx-auto'.\A         on line 67 of sass/media.scss, in `mx-auto'\A         from line 67 of sass/media.scss\A \A 62:         .seja-um-fiscal{\A 63:             .row{\A 64:                 .col-md-6:nth-child(2){\A 65:                    img{\A 66:                        width:50%;\A 67:                        @include mx-auto();\A 68:                        margin-bottom:20px;\A 69:                    }\A 70:                 }\A 71:             }\A 72:         }"; }
+  content: "Error: Undefined mixin 'mx-auto'.\A         on line 85 of sass/media.scss, in `mx-auto'\A         from line 85 of sass/media.scss\A \A 80:         .seja-um-fiscal{\A 81:             .row{\A 82:                 .col-md-6:nth-child(2){\A 83:                    img{\A 84:                        width:50%;\A 85:                        @include mx-auto();\A 86:                        margin-bottom:20px;\A 87:                    }\A 88:                 }\A 89:             }\A 90:         }"; }

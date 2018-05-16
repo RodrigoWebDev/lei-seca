@@ -9,6 +9,13 @@
 body {
   position: relative; }
 
+.vertical-line {
+  width: 3px;
+  height: 40%;
+  background: #FF1A2C;
+  display: block;
+  margin: 0 auto; }
+
 .bebas-title {
   font-family: bebas;
   font-size: 45px;
@@ -224,8 +231,6 @@ header {
   background: url(../img/bg-contact.jpg);
   background-size: cover;
   color: white; }
-  .contact .container {
-    max-width: 700px; }
   .contact input[type="text"], .contact input[type="email"], .contact textarea {
     background: rgba(255, 255, 255, 0.1);
     color: white;
@@ -363,12 +368,6 @@ header {
   .hero-lei-seca h1 {
     padding-top: 30px;
     font-size: 80px; }
-  .hero-lei-seca .vertical-line {
-    width: 3px;
-    height: 40%;
-    background: #FF1A2C;
-    display: block;
-    margin: 0 auto; }
   .hero-lei-seca hr {
     width: 30%;
     background: #FF1A2C;
@@ -500,6 +499,33 @@ header {
   margin: 2rem auto;
   width: 40%; }
 
+.fale-conosco {
+  background: url(../img/fale-conosco-bg.jpg);
+  background-size: cover;
+  background-position: center center; }
+  .fale-conosco .contact {
+    background: none;
+    color: inherit; }
+    .fale-conosco .contact form input, .fale-conosco .contact form textarea {
+      border-color: #FF1A2C !important;
+      color: rgba(0, 0, 0, 0.6) !important; }
+    .fale-conosco .contact form .button {
+      background: rgba(0, 0, 0, 0.9);
+      color: white !important; }
+    .fale-conosco .contact hr {
+      border-color: #FF1A2C;
+      margin: 3rem 0; }
+    .fale-conosco .contact .social {
+      display: flex;
+      align-items: center;
+      justify-content: space-around; }
+      .fale-conosco .contact .social a {
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.9);
+        text-align: center; }
+    .fale-conosco .contact .vertical-line {
+      height: 120%; }
+
 footer {
   background: black; }
   footer p {
@@ -556,7 +582,15 @@ footer {
   .fiscais-da-vida .hero h1 {
     font-size: 80px; }
   .fiscais-da-vida h2 {
-    font-size: 50px; } }
+    font-size: 50px; }
+
+  .fale-conosco {
+    padding: 100px 0; }
+    .fale-conosco h1 {
+      font-size: 80px; }
+    .fale-conosco .social {
+      flex-direction: column;
+      align-items: flex-start !important; } }
 @media screen and (max-width: 991px) {
   .lei-seca-content .row > div:nth-child(2) img {
     top: 5% !important; }

@@ -9,6 +9,13 @@
 body {
   position: relative; }
 
+.vertical-line {
+  width: 3px;
+  height: 40%;
+  background: #FF1A2C;
+  display: block;
+  margin: 0 auto; }
+
 .bebas-title {
   font-family: bebas;
   font-size: 45px;

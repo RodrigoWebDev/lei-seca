@@ -49,7 +49,15 @@
   .fiscais-da-vida .hero h1 {
     font-size: 80px; }
   .fiscais-da-vida h2 {
-    font-size: 50px; } }
+    font-size: 50px; }
+
+  .fale-conosco {
+    padding: 100px 0; }
+    .fale-conosco h1 {
+      font-size: 80px; }
+    .fale-conosco .social {
+      flex-direction: column;
+      align-items: flex-start !important; } }
 @media screen and (max-width: 991px) {
   .lei-seca-content .row > div:nth-child(2) img {
     top: 5% !important; }

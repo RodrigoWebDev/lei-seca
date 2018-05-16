@@ -1,0 +1,38 @@
+.fale-conosco{
+    background:url(../img/fale-conosco-bg.jpg);
+    background-size:cover;
+    background-position: center center;
+    .contact{
+        background:none;
+        color:inherit;
+        form{
+            input,textarea{
+                border-color:$color1 !important;
+                color:rgba(0,0,0,0.6) !important;
+            }
+            .button{
+                background:rgba(0,0,0,0.9);
+                color:white !important;
+            }
+        }
+        hr{
+            border-color:$color1;
+            margin:3rem 0;
+        }
+
+        .social{
+            display:flex;
+            align-items: center;
+            justify-content:space-around;
+            a{
+                font-size:40px;
+                color:rgba(0,0,0,0.9);
+                text-align: center;
+            }
+        }
+
+        .vertical-line{
+            height:120%;
+        }
+    }
+}

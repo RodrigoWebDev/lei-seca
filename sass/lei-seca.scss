@@ -8,13 +8,6 @@
         font-size:80px;
     }
 
-    .vertical-line{
-        width:3px;
-        height:40%;
-        background:$color1;
-        @include mx-auto();
-    }
-
     hr{
         width:30%;
         background:$color1;

@@ -31,6 +31,12 @@ body{
 
 //Classes
 
+.vertical-line{
+    width:3px;
+    height:40%;
+    background:$color1;
+    @include mx-auto();
+}
 
 
 .bebas-title{

@@ -79,7 +79,7 @@
 
 
 <div class="contact py-5">
-    <div class="container">
+    <div class="container" style="max-width:700px;">
         <h2 class="bebas-title">Fale conosco</h2>
         <p class="text-center">Mande a sua dúvida, mensagem ou conte para nós a sua história.</p>
         <form>

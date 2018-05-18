@@ -152,7 +152,7 @@ header {
     height: 120px; }
 
 .slide {
-  max-height: 500px;
+  max-height: 650px;
   overflow: hidden; }
   .slide .carousel-indicators {
     z-index: 2; }

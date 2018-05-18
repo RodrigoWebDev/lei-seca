@@ -1,18 +1,10 @@
-
 @media screen and (max-width:576px) {
-    .quots{
-        .quote1,.quote2{
-           display:none;
+    .quots {
+        .quote1,
+        .quote2 {
+            display: none;
         }
-        
-    }
-    .news{
-        h2{
-            font-size:16px;
-        }
-        p{
-            font-size:10px;
-        }
+
     }
 }
 
@@ -24,208 +16,215 @@
 
 
 @media screen and (max-width:768px) {
-    .quots{
-        .quote2{
-            top:400px;
+    .quots {
+        .quote2 {
+            top: 400px;
         }
     }
 
-    .news{
-        .col-md-4 img{
-            width:100%;
+    .news {
+        .col-md-4 img {
+            width: 100%;
         }
-        img{
-            margin-bottom:25px !important;
-        }
-        
-        .col-md-4 .post:nth-child(2) img{
+
+        .col-md-4 .post:nth-child(2) img {
             margin-top: 19px;
         }
-        
-        .col-md-4{
-            .post:first-child{
-                .post-excerpt{
-                    bottom:40px;
+
+        .col-md-4 {
+            .post:first-child {
+                .post-excerpt {
+                    bottom: 40px;
                 }
             }
         }
 
-        .col-md-8{
-            .post{
-                margin-right:0;
-                .post-excerpt{
-                    bottom:40px;
+        .col-md-8 {
+            .post {
+                margin-right: 0;
+                .post-excerpt {
+                    bottom: 40px;
                 }
             }
-            
+
         }
     }
-    
-    .contact{
-        .button{
-            width:100%;
+
+    .contact {
+        .button {
+            width: 100%;
         }
     }
-    
-    footer{
-        font-size:12px;
+
+    footer {
+        font-size: 12px;
     }
-    
-    header{
-        a{
-            font-size:30px !important;
+
+    header {
+        a {
+            font-size: 30px !important;
         }
     }
-    
-    .post-content{
-        h1{
-            font-size:20px;
+
+    .post-content {
+        h1 {
+            font-size: 20px;
         }
     }
 }
 
 @media screen and (min-width:768px) {
-    .mais-que-transito{
-        .blog-button{
-            float:right;
+    .mais-que-transito {
+        .blog-button {
+            float: right;
         }
-        .seja-um-fiscal{
-            .row{
-                .col-md-6:nth-child(2){
-                   img{
-                       width:50%;
-                       @include mx-auto();
-                       margin-bottom:20px;
-                   }
-                }
-            }
-        }
-    }
-
-    .news{
-        .col-md-4{
-            overflow: hidden;
-        }
-        .col-md-4,.col-md-8{
-            padding:0;
-        }
-        
-        .col-md-4 img{
-            height:50%;
-        }
-        
-        .col-md-8 img:nth-child(2){
-            padding-right:10px !important;
-        }
-    }
-    .stats{
-        padding:150px 0;
-    }
-    
-    .e-mais{
-        >.row{
-            >.col-md-4{
-                .container{
-                    >.row{
-                        padding:120px 0;
+        .seja-um-fiscal {
+            .row {
+                .col-md-6:nth-child(2) {
+                    img {
+                        width: 50%;
+                        @include mx-auto();
+                        margin-bottom: 20px;
                     }
                 }
-                
-            }
-        }
-
-        h2{
-            font-size:38px;
-        }
-        
-    }
-
-    .mais-que-transito{
-        .col-md-6{
-            .container{
-                padding:100px;
             }
         }
     }
 
-    .fiscais-da-vida{
-        .hero{
-            h1{
-                font-size:80px;
+    .news {
+        .col-md-4 {
+            overflow: hidden;
+            .post:first-child {
+                h2 {
+                    margin-bottom: 18.5px;
+                }
             }
         }
-        h2{
-            font-size:50px;
+        .col-md-4,
+        .col-md-8 {
+            padding: 0;
+        }
+
+        .col-md-8 img:nth-child(2) {
+            padding-right: 10px !important;
+        }
+
+        .col-md-8 {
+            h2 {
+                text-align: left;
+                font-size: 34px;
+            }
+        }
+
+    }
+    .stats {
+        padding: 150px 0;
+    }
+
+    .e-mais {
+        > .row {
+            > .col-md-4 {
+                .container {
+                    > .row {
+                        padding: 120px 0;
+                    }
+                }
+
+            }
+        }
+
+        h2 {
+            font-size: 38px;
+        }
+
+    }
+
+    .mais-que-transito {
+        .col-md-6 {
+            .container {
+                padding: 100px;
+            }
         }
     }
 
-    .fale-conosco{
-        padding:100px 0;
-        h1{
-            font-size:80px;
+    .fiscais-da-vida {
+        .hero {
+            h1 {
+                font-size: 80px;
+            }
         }
-        .social{
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    .fale-conosco {
+        padding: 100px 0;
+        h1 {
+            font-size: 80px;
+        }
+        .social {
             flex-direction: column;
             align-items: flex-start !important;
         }
     }
 
-    
-    
+
+
 }
 
 @media screen and (max-width:991px) {
-    .lei-seca-content{
-        .row{
-            >div:nth-child(2){
-                img{
-                    top:5% !important;
+    .lei-seca-content {
+        .row {
+            > div:nth-child(2) {
+                img {
+                    top: 5% !important;
                 }
             }
         }
-    
+
     }
-    .fiscais-da-vida{
-        .hero{
-            p{
-                display:none;
+    .fiscais-da-vida {
+        .hero {
+            p {
+                display: none;
             }
         }
     }
 
-    .fiscais-da-vida{
-        .hero{
-            h1{
-                font-size:60px;
+    .fiscais-da-vida {
+        .hero {
+            h1 {
+                font-size: 60px;
             }
         }
     }
 }
 
 @media screen and (max-width:1200px) {
-    .fiscais-da-vida{
-        .hero{
-            p{
-                margin-right:500px;
+    .fiscais-da-vida {
+        .hero {
+            p {
+                margin-right: 500px;
             }
         }
     }
 }
 
 @media screen and (min-width:1200px) {
-    .fiscais-da-vida{
-        .hero{
-            p{
-                margin-right:600px;
+    .fiscais-da-vida {
+        .hero {
+            p {
+                margin-right: 600px;
             }
         }
     }
-    .quots{
-        .quote1{
-            left:100px !important; 
+    .quots {
+        .quote1 {
+            left: 100px !important;
         }
-        .quote2{
-            right:100px !important; 
+        .quote2 {
+            right: 100px !important;
         }
     }
 }

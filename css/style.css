@@ -140,13 +140,16 @@ header {
   background: url(../img/bg-contact.jpg);
   background-size: cover;
   color: white; }
-  .contact input[type="text"], .contact input[type="email"], .contact textarea {
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
     background: rgba(255, 255, 255, 0.1);
     color: white;
     padding: 9px 15px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.5); }
-  .contact input::placeholder, .contact textarea::placeholder {
+  .contact input::placeholder,
+  .contact textarea::placeholder {
     font-style: italic; }
   .contact textarea {
     height: 120px; }
@@ -166,7 +169,8 @@ header {
   padding-bottom: 200px; }
   .quots .perfil-comment {
     width: 200px; }
-  .quots .quote1, .quots .quote2 {
+  .quots .quote1,
+  .quots .quote2 {
     width: 40px; }
   .quots .quote1 {
     top: 200x;
@@ -174,7 +178,8 @@ header {
   .quots .quote2 {
     right: 12%;
     top: 350px; }
-  .quots .ion-chevron-left, .quots .ion-chevron-right {
+  .quots .ion-chevron-left,
+  .quots .ion-chevron-right {
     top: 230px;
     font-size: 50px; }
   .quots .ion-chevron-right {
@@ -192,52 +197,43 @@ header {
     position: absolute;
     top: 11px;
     left: -69px; }
-  .news .col-md-8 img:first-child {
-    height: 100%; }
-  .news .col-md-4 h2, .news .col-md-8 h2 {
-    text-shadow: 2px 1px 1px black; }
+  .news .col-md-8 > img:first-child {
+    height: 80%; }
+  .news .col-md-4 h2,
+  .news .col-md-8 h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    text-align: center; }
   .news .container {
     max-width: 992px; }
   .news .post {
     position: relative; }
     .news .post img {
       width: 100%; }
-    .news .post .post-excerpt {
-      width: 100%;
-      padding: 10px 20px;
-      position: absolute;
-      bottom: 0; }
-      .news .post .post-excerpt h2 {
-        color: #FF1A2C;
-        text-transform: uppercase; }
-      .news .post .post-excerpt a {
-        color: inherit; }
-      .news .post .post-excerpt a:hover {
-        text-decoration: none;
-        color: inherit; }
-      .news .post .post-excerpt p {
-        color: white; }
+    .news .post h2 {
+      color: #FF1A2C; }
+    .news .post a {
+      color: inherit; }
+    .news .post a:hover {
+      text-decoration: none;
+      color: inherit; }
+    .news .post p {
+      color: white; }
   .news .post:hover {
     opacity: 0.7;
     cursor: pointer;
     transition: .3s; }
-  .news .col-md-4 h2 {
-    font-size: 20px; }
-  .news .col-md-4 .post {
-    height: 50%; }
-    .news .col-md-4 .post img {
-      height: 100%; }
-    .news .col-md-4 .post h2 {
-      text-align: center; }
-  .news .col-md-4 .post:first-child img {
-    padding-bottom: 10px; }
-  .news .col-md-8 .post {
-    height: 100%;
-    margin-right: 10px; }
-    .news .col-md-8 .post img {
-      height: 100%; }
-  .news .col-md-8 h2 {
+  .news .col-md-4 .post img {
+    height: 100%; }
+  .news .col-md-4 .post h2 {
     text-align: center; }
+  .news .col-md-8 .post {
+    padding-right: 10px;
+    width: 100%;
+    height: 100%; }
+    .news .col-md-8 .post img {
+      height: 86%; }
 
 .slider-blog {
   margin-top: 65px;
@@ -546,13 +542,9 @@ footer {
     margin: 0; }
 
 @media screen and (max-width: 576px) {
-  .quots .quote1, .quots .quote2 {
-    display: none; }
-
-  .news h2 {
-    font-size: 16px; }
-  .news p {
-    font-size: 10px; } }
+  .quots .quote1,
+  .quots .quote2 {
+    display: none; } }
 @media screen and (max-width: 767px) {
   .ms_pagination .ms_bullet {
     display: block !important; } }
@@ -562,8 +554,6 @@ footer {
 
   .news .col-md-4 img {
     width: 100%; }
-  .news img {
-    margin-bottom: 25px !important; }
   .news .col-md-4 .post:nth-child(2) img {
     margin-top: 19px; }
   .news .col-md-4 .post:first-child .post-excerpt {
@@ -595,12 +585,16 @@ footer {
 
   .news .col-md-4 {
     overflow: hidden; }
-  .news .col-md-4, .news .col-md-8 {
+    .news .col-md-4 .post:first-child h2 {
+      margin-bottom: 18.5px; }
+  .news .col-md-4,
+  .news .col-md-8 {
     padding: 0; }
-  .news .col-md-4 img {
-    height: 50%; }
   .news .col-md-8 img:nth-child(2) {
     padding-right: 10px !important; }
+  .news .col-md-8 h2 {
+    text-align: left;
+    font-size: 34px; }
 
   .stats {
     padding: 150px 0; }

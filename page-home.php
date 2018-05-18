@@ -71,7 +71,7 @@
             ?>
             <div class="col-md-8">
                 <img class="noticias img-fluid d-none d-md-block" src="<?php echo get_template_directory_uri() . '/img/noticia.jpg' ?>" alt="post image">
-                <?php get_template_part("content","destaque"); ?>
+                <?php get_template_part("destaque"); ?>
             </div>
             <?php
                     endwhile;
@@ -80,20 +80,22 @@
                                                    
             ?>
             <div class="col-md-4">
-                <?php 
+               <div class="row">
+                    <?php 
 
-                    $destaque2 = new WP_Query("type=post&posts_per_page=2&offset=1");
+                        $destaque2 = new WP_Query("type=post&posts_per_page=2&offset=1");
 
-                    if($destaque2->have_posts()):
-                        while($destaque2->have_posts()):
-                            $destaque2->the_post();
-                            get_template_part("content","destaque");
+                        if($destaque2->have_posts()):
+                            while($destaque2->have_posts()):
+                                $destaque2->the_post();
+                                get_template_part("destaque2");
 
-                
-                        endwhile;
-                    endif;
 
-                ?>
+                            endwhile;
+                        endif;
+
+                    ?>
+                </div>
             </div>
                             
                             

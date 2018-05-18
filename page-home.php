@@ -100,7 +100,7 @@
                             
                             
         </div>
-        <a class="text-link d-block text-center pt-3 pb-5" href="<?php echo get_page_link(5); ?>">Ver todas</a>
+        <a class="text-link d-block text-center py-5" href="<?php echo get_page_link(5); ?>">Ver todas</a>
     </div>
 </div>
 

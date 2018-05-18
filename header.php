@@ -22,7 +22,7 @@
                     <a class="hover" href="https://www.facebook.com/leisecasalvavidas/" target="_blank"><i class="ion-social-facebook"></i></a>
                     <a class="hover" href="https://www.instagram.com/leisecasalva/" target="_blank"><i class="ion-social-instagram"></i></a>
                     <a class="hover" href="https://twitter.com/leisecasalva" target="_blank"><i class="ion-social-twitter"></i></a>
-                    <a class="hover" href="#" target="_blank"><i class="ion-search"></i></a>
+                    <a class="hover" href="#"><i class="ion-search"></i></a>
                 </div>
             </div>
         </div>
@@ -40,6 +40,4 @@
         ));?>
     </nav>
 
-    <div class="nav-button hover">
-        <i class="ion-navicon-round"></i>
-    </div>
+    <img class="nav-button hover" src="<?php echo get_template_directory_uri() . '/img/menu.png' ?>">

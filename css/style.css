@@ -118,19 +118,12 @@ header {
       opacity: 0.5; }
 
 .nav-button {
-  border-radius: 50% 50%;
-  background: #FF1A2C;
   position: fixed;
   height: 60px;
   width: 60px;
   top: 80px;
   left: 5%;
   z-index: 2; }
-  .nav-button i {
-    color: white !important;
-    font-size: 50px;
-    display: block;
-    margin: -9px 11px; }
 
 .content h2 {
   font-size: 26px;
@@ -619,6 +612,14 @@ footer {
     .fale-conosco .social {
       flex-direction: column;
       align-items: flex-start !important; } }
+@media screen and (min-width: 991px) {
+  .fiscais-da-vida .hero {
+    height: auto !important; }
+    .fiscais-da-vida .hero p {
+      padding-bottom: 30px;
+      display: block; }
+  .fiscais-da-vida .content-text {
+    display: none; } }
 @media screen and (max-width: 991px) {
   .lei-seca-content .row > div:nth-child(2) img {
     top: 5% !important; }

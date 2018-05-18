@@ -173,6 +173,22 @@
 
 }
 
+@media screen and (min-width:991px) {
+    .fiscais-da-vida {
+        .hero {
+            height:auto !important;
+            p{
+                padding-bottom:30px;
+                display:block;
+            }
+        }
+        
+        .content-text{
+            display:none;
+        }
+    }
+}
+
 @media screen and (max-width:991px) {
     .lei-seca-content {
         .row {

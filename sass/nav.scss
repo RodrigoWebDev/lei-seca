@@ -49,18 +49,10 @@
 
 
 .nav-button {
-    border-radius: 50% 50%;
-    background: $color1;
     position: fixed;
     height: 60px;
     width: 60px;
     top: 80px;
     left: 5%;
     z-index: 2;
-    i {
-        color: white !important;
-        font-size: 50px;
-        display: block;
-        margin: -9px 11px;
-    }
 }

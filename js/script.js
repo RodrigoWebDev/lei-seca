@@ -1,6 +1,5 @@
 (function($){
 
-    console.log("teste");
     $(".sub-menu").hide();
     //Dropdown menu
     $(".nav-button").click(function () {
@@ -13,13 +12,13 @@
     });
     
     //Dropdown nav
-    $(".menu-item-26").hover(function () {
-        $(".menu-item-26 .sub-menu").toggle();
+    $("#menu-item-64").hover(function () {
+        $("#menu-item-64 .sub-menu").toggle();
 
     });
     
-    $(".menu-item-23").hover(function () {
-        $(".menu-item-23 .sub-menu").toggle();
+    $("#menu-item-65").hover(function () {
+        $("#menu-item-65 .sub-menu").toggle();
 
     });
 

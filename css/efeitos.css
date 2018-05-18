@@ -3,7 +3,8 @@
   background-size: contain;
   height: 70vh; }
   .efeitos-hero img {
-    max-width: 600px; }
+    max-width: 600px;
+    padding-top: 30px; }
 
 .stats {
   background: url(../img/stats-bg.jpg);

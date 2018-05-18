@@ -12,13 +12,13 @@
     });
     
     //Dropdown nav
-    $("#menu-item-64").hover(function () {
-        $("#menu-item-64 .sub-menu").toggle();
+    $("#menu-item-82").hover(function () {
+        $("#menu-item-82 .sub-menu").toggle();
 
     });
     
-    $("#menu-item-65").hover(function () {
-        $("#menu-item-65 .sub-menu").toggle();
+    $("#menu-item-83").hover(function () {
+        $("#menu-item-83 .sub-menu").toggle();
 
     });
 

@@ -1,21 +1,103 @@
 //Header
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background: $color1;
+    padding: 10px;
+    a {
+        color: white;
+    }
+    a:hover {
+        color: white;
+    }
+    .social {
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        a {
+            margin: 0 5px;
+            font-size: 30px;
+        }
+        
+        //SEARCH BAR
+        input {
+            outline: none;
+        }
 
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    z-index:2;
-    background:$color1;
-    padding:10px;
-    a{
-        color:white;
+        input[type=search] {
+            -webkit-appearance: textfield;
+            -webkit-box-sizing: content-box;
+            font-family: inherit;
+            font-size: 100%;
+        }
+
+        input::-webkit-search-decoration,
+        input::-webkit-search-cancel-button {
+            display: none;
+        }
+
+
+        input[type=search] {
+            background: white url(../img/search-icon.png) no-repeat 9px center;
+            background-size:18px 18px;
+            border:none;
+            padding: 9px 10px 9px 32px;
+            width: 55px;
+
+            -webkit-border-radius: 10em;
+            -moz-border-radius: 10em;
+            border-radius: 10em;
+
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+        }
+
+        input[type=search]:focus {
+            width: 130px;
+            background-color: #fff;
+            border-color: #66CC75;
+        }
+
+
+        input:-moz-placeholder {
+            color: #999;
+        }
+
+        input::-webkit-input-placeholder {
+            color: #999;
+        }
+        
+        #demo-2 input[type=search] {
+            width: 15px;
+            height:15px;
+            padding-left: 10px;
+            color: transparent;
+            cursor: pointer;
+        }
+
+        #demo-2 input[type=search]:hover {
+            background-color: #fff;
+        }
+
+        #demo-2 input[type=search]:focus {
+            width: 130px;
+            padding-left: 32px;
+            color: #000;
+            background-color: #fff;
+            cursor: auto;
+        }
+
+        #demo-2 input:-moz-placeholder {
+            color: transparent;
+        }
+
+        #demo-2 input::-webkit-input-placeholder {
+            color: transparent;
+        }
+
     }
-    a:hover{
-        color:white;
-    }
-    .social a{
-        margin:0 5px;
-        font-size:30px;
-    }   
 }

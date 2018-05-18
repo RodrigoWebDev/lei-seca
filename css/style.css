@@ -74,9 +74,61 @@ header {
     color: white; }
   header a:hover {
     color: white; }
-  header .social a {
-    margin: 0 5px;
-    font-size: 30px; }
+  header .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    header .social a {
+      margin: 0 5px;
+      font-size: 30px; }
+    header .social input {
+      outline: none; }
+    header .social input[type=search] {
+      -webkit-appearance: textfield;
+      -webkit-box-sizing: content-box;
+      font-family: inherit;
+      font-size: 100%; }
+    header .social input::-webkit-search-decoration,
+    header .social input::-webkit-search-cancel-button {
+      display: none; }
+    header .social input[type=search] {
+      background: white url(../img/search-icon.png) no-repeat 9px center;
+      background-size: 18px 18px;
+      border: none;
+      padding: 9px 10px 9px 32px;
+      width: 55px;
+      -webkit-border-radius: 10em;
+      -moz-border-radius: 10em;
+      border-radius: 10em;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all .5s; }
+    header .social input[type=search]:focus {
+      width: 130px;
+      background-color: #fff;
+      border-color: #66CC75; }
+    header .social input:-moz-placeholder {
+      color: #999; }
+    header .social input::-webkit-input-placeholder {
+      color: #999; }
+    header .social #demo-2 input[type=search] {
+      width: 15px;
+      height: 15px;
+      padding-left: 10px;
+      color: transparent;
+      cursor: pointer; }
+    header .social #demo-2 input[type=search]:hover {
+      background-color: #fff; }
+    header .social #demo-2 input[type=search]:focus {
+      width: 130px;
+      padding-left: 32px;
+      color: #000;
+      background-color: #fff;
+      cursor: auto; }
+    header .social #demo-2 input:-moz-placeholder {
+      color: transparent; }
+    header .social #demo-2 input::-webkit-input-placeholder {
+      color: transparent; }
 
 .drop-menu {
   background: rgba(0, 0, 0, 0.8);

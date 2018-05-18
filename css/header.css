@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color1".
-        on line 9 of sass/header.scss
+        on line 8 of sass/header.scss
 
-4:     position:fixed;
-5:     top:0;
-6:     left:0;
-7:     width:100%;
-8:     z-index:2;
-9:     background:$color1;
-10:     padding:10px;
-11:     a{
-12:         color:white;
-13:     }
-14:     a:hover{
+3:     position: fixed;
+4:     top: 0;
+5:     left: 0;
+6:     width: 100%;
+7:     z-index: 2;
+8:     background: $color1;
+9:     padding: 10px;
+10:     a {
+11:         color: white;
+12:     }
+13:     a:hover {
 
 Backtrace:
-sass/header.scss:9
+sass/header.scss:8
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color1\".\A         on line 9 of sass/header.scss\A \A 4:     position:fixed;\A 5:     top:0;\A 6:     left:0;\A 7:     width:100%;\A 8:     z-index:2;\A 9:     background:$color1;\A 10:     padding:10px;\A 11:     a{\A 12:         color:white;\A 13:     }\A 14:     a:hover{"; }
+  content: "Error: Undefined variable: \"$color1\".\A         on line 8 of sass/header.scss\A \A 3:     position: fixed;\A 4:     top: 0;\A 5:     left: 0;\A 6:     width: 100%;\A 7:     z-index: 2;\A 8:     background: $color1;\A 9:     padding: 10px;\A 10:     a {\A 11:         color: white;\A 12:     }\A 13:     a:hover {"; }

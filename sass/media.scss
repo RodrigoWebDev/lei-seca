@@ -110,6 +110,12 @@
         }
 
         .col-md-8 {
+            .post{
+                padding-right: 10px;
+            }
+            img{
+                height:86%;
+            }
             h2 {
                 text-align: left;
                 font-size: 34px;
@@ -164,8 +170,13 @@
             font-size: 80px;
         }
         .social {
-            flex-direction: column;
-            align-items: flex-start !important;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-align: start !important;
+                -ms-flex-align: start !important;
+                    align-items: flex-start !important;
         }
     }
 

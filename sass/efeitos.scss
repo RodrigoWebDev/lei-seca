@@ -21,7 +21,9 @@
         font-family: bebas;
     }
     .row{
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 }
 

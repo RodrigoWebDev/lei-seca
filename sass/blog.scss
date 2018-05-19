@@ -23,6 +23,8 @@
     img:hover {
         opacity: 0.5;
         cursor: pointer;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
         transition: .3s;
     }
 
@@ -70,6 +72,15 @@
     }
 
     form {
+        input::-webkit-input-placeholder {
+            font-style: italic;
+        }
+        input:-ms-input-placeholder {
+            font-style: italic;
+        }
+        input::-ms-input-placeholder {
+            font-style: italic;
+        }
         input::placeholder {
             font-style: italic;
         }
@@ -117,21 +128,12 @@
     img{
         width: 100%;
         height: 500px;
-        object-fit:cover;
-        object-position: center;
+        -o-object-fit:cover;
+           object-fit:cover;
+        -o-object-position: center;
+           object-position: center;
         border-radius:20px;
     }
-
-    /*.post-thumb {
-        .attachment-post-thumbnail {
-            width: 100%;
-            height: 100px;
-            object-fit:cover
-        }
-        max-height:500px;
-        overflow: hidden;
-        border-radius:20px;
-    }*/
 }
 
 .comments {
@@ -145,6 +147,21 @@
         padding: 9px 15px;
         border-radius: 10px;
         border: 1px solid rgba(0, 0, 0, 0.4);
+    }
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+        font-style: italic;
+        opacity: 0.4;
+    }
+    input:-ms-input-placeholder,
+    textarea:-ms-input-placeholder {
+        font-style: italic;
+        opacity: 0.4;
+    }
+    input::-ms-input-placeholder,
+    textarea::-ms-input-placeholder {
+        font-style: italic;
+        opacity: 0.4;
     }
     input::placeholder,
     textarea::placeholder {

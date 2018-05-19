@@ -17,6 +17,8 @@
     text-align: center;
     font-family: bebas; }
   .stats .row {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between; }
 
 .e-mais h2 {

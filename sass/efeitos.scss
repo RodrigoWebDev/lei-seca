@@ -6,6 +6,13 @@
         max-width:600px;
         padding-top:30px;
     }
+    img:not(*:root) {
+        max-width:100%;
+    }
+}
+
+.efeitos-hero:not(*:root) {
+    height:90vh;
 }
 
 .stats{

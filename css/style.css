@@ -507,6 +507,11 @@ header {
   .efeitos-hero img {
     max-width: 600px;
     padding-top: 30px; }
+  .efeitos-hero img:not(*:root) {
+    max-width: 100%; }
+
+.efeitos-hero:not(*:root) {
+  height: 90vh; }
 
 .stats {
   background: url(../img/stats-bg.jpg);

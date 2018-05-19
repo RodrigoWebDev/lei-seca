@@ -17,6 +17,15 @@
 
 @media screen and (max-width:768px) {
     
+    .post-content img{
+        height: 200px !important;
+    }
+    .drop-menu {
+        font-size:20px;
+        .sub-menu{
+            font-size:10px !important;
+        }
+    }
 
     .quots {
         .quote2 {
@@ -76,6 +85,9 @@
 }
 
 @media screen and (min-width:768px) {
+    .post-content img{
+        height: 500px !important;
+    }
     .mais-que-transito {
         .blog-button {
             float: right;

@@ -309,13 +309,14 @@ header {
     width: 100%;
     height: 100%; }
 
-.slider-blog {
-  margin-top: 65px;
-  max-height: 200px !important; }
-  .slider-blog h1 {
+.blog-hero {
+  padding-top: 65px;
+  height: 200px !important;
+  background: url(../img/bg-blog.jpg) no-repeat center; }
+  .blog-hero h1 {
     z-index: 1;
-    bottom: 5%;
-    left: 120px;
+    bottom: 15%;
+    left: 10%;
     font-weight: bolder; }
 
 .blog-post {
@@ -390,7 +391,6 @@ header {
   border-radius: 10px; }
 .post-content img {
   width: 100%;
-  height: 500px;
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center;
@@ -655,6 +655,14 @@ footer {
   .ms_pagination .ms_bullet {
     display: block !important; } }
 @media screen and (max-width: 768px) {
+  .post-content img {
+    height: 200px !important; }
+
+  .drop-menu {
+    font-size: 20px; }
+    .drop-menu .sub-menu {
+      font-size: 10px !important; }
+
   .quots .quote2 {
     top: 400px; }
 
@@ -681,6 +689,9 @@ footer {
   .post-content h1 {
     font-size: 20px; } }
 @media screen and (min-width: 768px) {
+  .post-content img {
+    height: 500px !important; }
+
   .mais-que-transito .blog-button {
     float: right; }
   .mais-que-transito .seja-um-fiscal .row .col-md-6:nth-child(2) img {

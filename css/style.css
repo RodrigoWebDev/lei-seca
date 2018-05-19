@@ -612,6 +612,8 @@ header {
   background: url(../img/fale-conosco-bg.jpg);
   background-size: cover;
   background-position: center center; }
+  .fale-conosco h1:not(*:root) {
+    padding-top: 25px; }
   .fale-conosco .contact {
     background: none;
     color: inherit; }

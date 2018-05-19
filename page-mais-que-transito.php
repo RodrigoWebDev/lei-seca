@@ -1,56 +1,55 @@
 <?php get_header();?>
-    <div class="mais-que-transito">
-        <!------------------ HERO IMAGE -------------------->
-    
-        <div class="hero text-light px-4">
+<div class="mais-que-transito">
+    <!------------------ HERO IMAGE -------------------->
+
+    <div class="hero text-light px-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/placa.png' ?>" alt="Mais que transito">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In explicabo hic odio vero commodi unde, repellat facere alias cumque voluptatum necessitatibus iure corporis rem dolorem. Rerum commodi vel vitae voluptatum? Quae, obcaecati enim nostrum voluptatem quia dolores optio, consequatur, itaque natus quos voluptates? Voluptates, ex amet, quasi veritatis distinctio quas accusamus necessitatibus eius dolores nobis veniam, tenetur laboriosam non ut. Aliquid omnis nostrum esse nulla dolorem optio deserunt laborum consectetur quasi quam doloremque neque, porro aliquam repudiandae harum a voluptatem cum aspernatur! Quis, itaque odit dolore molestiae perspiciatis modi eos!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!------------------ CONTENT -------------------->
+    <div class="row">
+        <div class="col-md-6">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/placa.png' ?>" alt="Mais que transito">
-                    </div>
-                    <div class="col-md-6 d-flex align-items-center">
-                        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. In explicabo hic odio vero commodi unde, repellat facere alias cumque voluptatum necessitatibus iure corporis rem dolorem. Rerum commodi vel vitae voluptatum?
-                        Quae, obcaecati enim nostrum voluptatem quia dolores optio, consequatur, itaque natus quos voluptates? Voluptates, ex amet, quasi veritatis distinctio quas accusamus necessitatibus eius dolores nobis veniam, tenetur laboriosam non ut.
-                        Aliquid omnis nostrum esse nulla dolorem optio deserunt laborum consectetur quasi quam doloremque neque, porro aliquam repudiandae harum a voluptatem cum aspernatur! Quis, itaque odit dolore molestiae perspiciatis modi eos!</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-            
-        
-        <!------------------ CONTENT -------------------->
-        <div class="row">
-            <div class="col-md-6">
-                <div class="container">
-                    <h2 class="bebas-title">Antes da lei seca</h2>
-                    <ul>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                    </ul>
-                </div>
-            </div>
-        
-            <div class="depois-da-lei-seca col-md-6">
-                <div class="container">
-                    <h2 class="bebas-title">Depois da lei seca</h2>
-                    <ul>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
-                    </ul>
-                </div>
+                <h2 class="bebas-title">Antes da lei seca</h2>
+                <ul>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                </ul>
             </div>
         </div>
-    
-        <?php get_template_part("quots");?>
-        
-        <div class="seja-um-fiscal container clearfix pb-5">
+
+        <div class="depois-da-lei-seca col-md-6">
+            <div class="container">
+                <h2 class="bebas-title">Depois da lei seca</h2>
+                <ul>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente modi ea quam obcaecati perferendis tempora animi soluta quia, vitae officiis eius magnam eveniet illum, laborum dolore! Quis id at qui.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <?php get_template_part("quots");?>
+
+    <div class="seja-um-fiscal container clearfix pb-5">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="bebas-title text-left">Ajude a salvar vidas</h2>
@@ -64,9 +63,8 @@
             </div>
         </div>
     </div>
-                    
-        <?php get_footer(); ?>
-  
+</div>
+
+<?php get_footer(); ?>
+
 </html>
-    
-    

@@ -11,6 +11,7 @@
 	add_action("wp_enqueue_scripts", "load_scripts");
 
 	add_theme_support("post-thumbnails");
+    add_theme_support("html5", array("search-form"));
 
     register_nav_menus(
         array(

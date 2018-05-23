@@ -22,9 +22,7 @@
                     <a class="hover" href="https://www.facebook.com/leisecasalvavidas/" target="_blank"><i class="ion-social-facebook"></i></a>
                     <a class="hover" href="https://www.instagram.com/leisecasalva/" target="_blank"><i class="ion-social-instagram"></i></a>
                     <a class="hover" href="https://twitter.com/leisecasalva" target="_blank"><i class="ion-social-twitter"></i></a>
-                    <form id="demo-2">
-                        <input type="search" placeholder="Pesquisar...">
-                    </form>
+                    <?php get_search_form();?>
                 </div>
             </div>
         </div>

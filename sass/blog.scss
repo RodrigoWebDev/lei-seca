@@ -131,7 +131,7 @@
         margin:20px 0;
     }
 
-    img:not(img.avatar) {
+    .post-thumb img {
         width: 100%;
         -o-object-fit: cover;
         object-fit: cover;

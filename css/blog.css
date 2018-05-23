@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color1".
-        on line 34 of sass/blog.scss
+        on line 35 of sass/blog.scss
 
-29:         transition: .3s;
-30:     }
-31: 
-32:     h2 {
-33:         a {
-34:             color: $color1;
-35:         }
-36: 
-37:         a:hover {
-38:             text-decoration: none;
-39:         }
+30:         transition: .3s;
+31:     }
+32: 
+33:     h2 {
+34:         a {
+35:             color: $color1;
+36:         }
+37: 
+38:         a:hover {
+39:             text-decoration: none;
+40:         }
 
 Backtrace:
-sass/blog.scss:34
+sass/blog.scss:35
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -91,4 +91,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color1\".\A         on line 34 of sass/blog.scss\A \A 29:         transition: .3s;\A 30:     }\A 31: \A 32:     h2 {\A 33:         a {\A 34:             color: $color1;\A 35:         }\A 36: \A 37:         a:hover {\A 38:             text-decoration: none;\A 39:         }"; }
+  content: "Error: Undefined variable: \"$color1\".\A         on line 35 of sass/blog.scss\A \A 30:         transition: .3s;\A 31:     }\A 32: \A 33:     h2 {\A 34:         a {\A 35:             color: $color1;\A 36:         }\A 37: \A 38:         a:hover {\A 39:             text-decoration: none;\A 40:         }"; }

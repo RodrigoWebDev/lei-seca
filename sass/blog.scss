@@ -3,6 +3,7 @@
     padding-top: 65px;
     height: 200px !important;
     background: url(../img/bg-blog.jpg) no-repeat center;
+    background-size:cover;
     h1 {
         z-index: 1;
         bottom: 15%;
@@ -124,6 +125,10 @@
     }
     div {
         border-radius: 10px;
+    }
+    
+    h2{
+        margin:20px 0;
     }
 
     img {

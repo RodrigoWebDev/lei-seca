@@ -41,9 +41,8 @@
         <div class="row">
             <div class="col-md-6"><img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/logo.png' ?>"></div>
             <div class="col-md-6">
-                <p>O projeto Lei Seca Salva Vidas tem como objetivo aumentar a conscientização sobre a Lei Seca. Boa parte da população ainda vê a lei apenas como uma ação que cria mais blitzes de trânsito, quando é um projeto que salvou milhares de vidas e poupou bilhões de reais para o país nos últimos nove anos. Inclusive, as ações de fiscalização fizeram com que a lei fosse cada vez mais conhecida pela população. A cada ano, mais e mais motoristas compreendem o perigo de dirigir alcoolizados, diminuindo cada vez mais o número de acidentes nas estradas. Entre 2009 e 2016, o número de motoristas flagrados alcoolizados caiu em 43%. </p>
-                <p>Antes da Lei Seca, a ingestão permitida de álcool era de até 6 decigramas... </p>
-                <a class="text-link d-block text-right" href="#">continuar lendo ></a>
+                <p>A primeira Operação Lei Seca ocorreu em 19 de março de 2009, e, no seu início, 20% dos motoristas registravam a presença de bebida alcoólica no sangue. Em 2016, o número de motoristas pegos com traços de bebida alcoólica no sangue caiu para 7%. Já em seu primeiro mês de funcionamento, a lei mostrou que faz a diferença. Segundo dados do Ministério da Saúde, ocorreu no período uma diminuição de 24% de resgates do SAMU. Em um ano, o número de mortes em acidentes causados por motoristas embriagados caiu em 32% em comparação com o ano anterior... </p>
+                <a class="text-link d-block text-right" href="<?php echo get_page_link(34); ?>">continuar lendo ></a>
             </div>
         </div>
     </div>
@@ -100,7 +99,7 @@
                             
                             
         </div>
-        <a class="text-link d-block text-center py-5" href="<?php echo get_page_link(5); ?>">Ver todas</a>
+        <a class="text-link d-block text-center py-5" href="<?php echo get_page_link(43); ?>">Ver todas</a>
     </div>
 </div>
 

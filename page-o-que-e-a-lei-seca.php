@@ -50,7 +50,7 @@
         <div class="col-lg-6">
             <img class="year-2 position-absolute d-none d-lg-block" src="<?php echo get_template_directory_uri() . '/img/2016-2.png'?>">
             <h2 class="text-uppercase text-center">As modificações</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius sint voluptatibus reprehenderit! Obcaecati, facilis fugit animi necessitatibus nostrum officiis architecto magnam ducimus impedit optio eveniet tempore quaerat eum cupiditate cumque!Ex ad est recusandae laudantium natus, repellendus placeat atque quis sint accusantium porro, dignissimos fuga voluptates aliquam in, sit distinctio id sed. Dolorem unde culpa ipsum ab neque earum quam.</p>
+            <p>Em 2016, novas modificações foram feitas para aprimorar a Lei Seca e o valor da multa aplicada ao motorista que dirige embriagado aumentou para 10 no fator de multiplicação: De R$1.912,00 para R$2.934,70, além de ter habilitação suspensa pelo período de 12 meses. A intenção é que o trânsito seja humanizado, com a contribuição e união de todos. A reeducação é necessária e está sendo feita através das penalizações para reduzir os erros e crimes cometidos nas vias e estradas.</p>
         </div>
     </div>
     <div class="row">
@@ -61,7 +61,7 @@
         <div class="col-lg-6">
             <img class="year-2 position-absolute d-none d-lg-block" src="<?php echo get_template_directory_uri() . '/img/2017-2.png'?>">
             <h2 class="text-uppercase text-center">Trânsito mais humanizado</h2>
-            <p>Em 2016, novas modificações foram feitas para aprimorar a Lei Seca e o valor da multa aplicada ao motorista que dirige embriagado aumentou para 10 no fator de multiplicação: De R$1.912,00 para R$2.934,70, além de ter habilitação suspensa pelo período de 12 meses. A intenção é que o trânsito seja humanizado, com a contribuição e união de todos. A reeducação é necessária e está sendo feita através das penalizações para reduzir os erros e crimes cometidos nas vias e estradas.</p>
+            <p>Para tornar os motoristas mais conscientes e responsáveis, em 2017 aumentou a punição para crimes cometidos no volante. Lesões corporais causadas no trânsito começaram a receber a classificação de graves ou gravíssimas, de forma que a pena de prisão atualmente é de no mínimo cinco anos e de no máximo oito anos e sem direito à fiança. Mesmo quem não cometer alguma lesão, a pena se tornou de no mínimo seis meses a três anos de detenção e a suspensão definitiva da carteira de motorista.</p>
         </div>
     </div>
 </div>

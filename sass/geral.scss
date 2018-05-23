@@ -24,6 +24,14 @@ $background-color1: #f2f2f2;
             box-sizing:border-box;
 }
 
+a{
+    color:$color1;
+}
+
+a:hover{
+    color:#e21b28;
+}
+
 body{
     position:relative;
 }

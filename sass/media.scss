@@ -85,7 +85,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .post-content img{
+    .post-content img:not(img.avatar){
         height: 500px !important;
     }
     .mais-que-transito {

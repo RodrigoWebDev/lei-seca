@@ -131,7 +131,7 @@
         margin:20px 0;
     }
 
-    img {
+    img:not(img.avatar) {
         width: 100%;
         -o-object-fit: cover;
         object-fit: cover;
@@ -195,3 +195,10 @@
         }
     }
 }
+
+#comments{
+    ul{
+        list-style:none;
+    }
+}
+

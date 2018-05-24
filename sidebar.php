@@ -5,9 +5,7 @@
     <aside class="sidebar">
         <h2 class="text-uppercase">Categorias</h2>
         <ul>
-            <li><a href="#">Notícia</a></li>
-            <li><a href="#">Dicas</a></li>
-            <li><a href="#">Didáticos</a></li>
+            <?php wp_list_cats();?>
         </ul>
 
         <h2 class="text-uppercase">Newsletter</h2>

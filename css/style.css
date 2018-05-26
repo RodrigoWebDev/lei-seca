@@ -557,6 +557,14 @@ header {
   background: url(../img/efeitos-bg-3.jpg);
   background-size: cover; }
 
+.mais-que-transito .reflexos ul li {
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: bebas; }
+.mais-que-transito .reflexos ul div {
+  margin-bottom: 35px; }
+  .mais-que-transito .reflexos ul div p {
+    margin-bottom: 3px; }
 .mais-que-transito h2 {
   font-size: 30px;
   letter-spacing: 1px;

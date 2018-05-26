@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$background-color1".
-        on line 9 of sass/mais-que-transito.scss
+        on line 26 of sass/mais-que-transito.scss
 
-4:         letter-spacing:1px;
-5:         padding-top:1.5rem;
-6:         padding-bottom:10px;
-7:     }
-8:     .depois-da-lei-seca{
-9:         background:$background-color1;
-10:         h2{
-11:             color:$color1;
-12:         }
-13:     }
-14: 
+21:         letter-spacing:1px;
+22:         padding-top:1.5rem;
+23:         padding-bottom:10px;
+24:     }
+25:     .depois-da-lei-seca{
+26:         background:$background-color1;
+27:         h2{
+28:             color:$color1;
+29:         }
+30:     }
+31: 
 
 Backtrace:
-sass/mais-que-transito.scss:9
+sass/mais-que-transito.scss:26
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -80,4 +80,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$background-color1\".\A         on line 9 of sass/mais-que-transito.scss\A \A 4:         letter-spacing:1px;\A 5:         padding-top:1.5rem;\A 6:         padding-bottom:10px;\A 7:     }\A 8:     .depois-da-lei-seca{\A 9:         background:$background-color1;\A 10:         h2{\A 11:             color:$color1;\A 12:         }\A 13:     }\A 14: "; }
+  content: "Error: Undefined variable: \"$background-color1\".\A         on line 26 of sass/mais-que-transito.scss\A \A 21:         letter-spacing:1px;\A 22:         padding-top:1.5rem;\A 23:         padding-bottom:10px;\A 24:     }\A 25:     .depois-da-lei-seca{\A 26:         background:$background-color1;\A 27:         h2{\A 28:             color:$color1;\A 29:         }\A 30:     }\A 31: "; }

@@ -7,3 +7,6 @@
 </body>
 
 </html>
+<?php 
+    msqli_close($serever,$user,$pass,$db_name);
+?>

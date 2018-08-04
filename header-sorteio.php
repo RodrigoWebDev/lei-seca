@@ -1,3 +1,15 @@
+<?php 
+    $serever = "localhost";
+    $user = "root";
+    $pass = "";
+    $db_name = "sorteio";
+    $connect = mysqli_connect($serever,$user,$pass,$db_name);
+
+    if(mysqli_connect_errno()){
+        die("Falha na conexão: " . mysqli_connect_errno());
+
+    }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
